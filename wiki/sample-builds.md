@@ -75,7 +75,9 @@ $175-$550: SMALL/MEDIUM: AMD - Ryzen 3x00G-5x00G, 8GB (2x4GB) RAM, 256GB ssd/1TB
 
  - *Used for:* local content + 4k netflix/YT, web browsing, **light gaming**, **int. 3.5" storage (SFF/MT models)**, low power (xxxxGE cpu models).  
 
-**Specialized: Emulation/Light Gaming**  
+<!-- Sub-Section -->
+
+### Specialized: Emulation/Light Gaming
 
 $85: Low (<= Gamecube): [Odroid N2+](https://www.hardkernel.com/shop/odroid-n2-with-4gbyte-ram-2/) (S922X)  
 $175: Med	(<= Wii/PS2): [HP EliteDesk 705 G5](https://www.ebay.com/sch/179/i.html?_from=R40&_nkw=hp+705+g5+%283200g%2C3400g%29&LH_TitleDesc=1&_sop=15&LH_PrefLoc=2&rt=nc&LH_BIN=1) (AMD 3400G)  
@@ -85,9 +87,14 @@ $475: Ultra (<= Xbox 360): Minisforum [UM773 Lite](https://store.minisforum.com/
 
 See [ETA PRIME](https://www.youtube.com/@ETAPRIME) youtube channel for reviews  
 
-**Specialized: 4K@120Hz**: [Intel NUC 12/13](https://www.newegg.com/p/pl?N=100008345%2050001157%20601331497&Order=1&SrchInDesc=nuc+12) + [Cable Matters Thunderbolt->HDMI 2.1 Cable](https://www.amazon.com/Cable-Matters-48Gbps-Adapter-Supporting/dp/B08QDV5H4M) + Display w/HDMI DSC support, [Minisforum Venus UM760](https://store.minisforum.com/collections/amd-%C2%AE-ryzen-%C2%AE/products/minisforum-um790-pro).  
+<!-- Sub-Section -->
 
-**Specialized: Fanless**: [Zotac CI6xx](https://www.zotac.com/us/product/mini_pcs/all?field_filter_m_series_tid%5B%5D=2229&field_filter_m_processor_tid%5B%5D=2241&field_filter_m_processor_tid%5B%5D=2242&field_filter_m_processor_tid%5B%5D=2243&field_filter_m_processor_tid%5B%5D=2510), [Asus PN42](https://www.asus.com/us/displays-desktops/mini-pcs/pn-series/asus-expertcenter-pn42/), [NUC8i3/8i5](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=%28nuc8i3%2Cnuc8i5%29&_sacat=0&LH_TitleDesc=0&_odkw=nuc8i5&_osacat=0)+[Akasa Plato X8](https://www.amazon.com/stores/page/11DBCB8D-9B9B-448F-AC11-98EF7EFEC639?ingress=2&visitId=8b932b32-2077-4adb-8ccd-e92fbcc707a1&ref_=ast_bln)  
+### Specialized: 4K@120Hz**
+
+[Intel NUC 12/13](https://www.newegg.com/p/pl?N=100008345%2050001157%20601331497&Order=1&SrchInDesc=nuc+12) + [Cable Matters Thunderbolt->HDMI 2.1 Cable](https://www.amazon.com/Cable-Matters-48Gbps-Adapter-Supporting/dp/B08QDV5H4M) + Display w/HDMI DSC support, [Minisforum Venus UM760](https://store.minisforum.com/collections/amd-%C2%AE-ryzen-%C2%AE/products/minisforum-um790-pro).  
+
+### Specialized: Fanless
+[Zotac CI6xx](https://www.zotac.com/us/product/mini_pcs/all?field_filter_m_series_tid%5B%5D=2229&field_filter_m_processor_tid%5B%5D=2241&field_filter_m_processor_tid%5B%5D=2242&field_filter_m_processor_tid%5B%5D=2243&field_filter_m_processor_tid%5B%5D=2510), [Asus PN42](https://www.asus.com/us/displays-desktops/mini-pcs/pn-series/asus-expertcenter-pn42/), [NUC8i3/8i5](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=%28nuc8i3%2Cnuc8i5%29&_sacat=0&LH_TitleDesc=0&_odkw=nuc8i5&_osacat=0)+[Akasa Plato X8](https://www.amazon.com/stores/page/11DBCB8D-9B9B-448F-AC11-98EF7EFEC639?ingress=2&visitId=8b932b32-2077-4adb-8ccd-e92fbcc707a1&ref_=ast_bln)  
 
 **Specialized: Optical/Toslink output**: [NUC11PHKi7C](https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/nuc-11-enthusiast-product-brief.pdf), [NUC7PJYH](https://www.intel.com/content/www/us/en/products/sku/126137/intel-nuc-kit-nuc7pjyh/specifications.html)  
 
@@ -110,15 +117,15 @@ See [ETA PRIME](https://www.youtube.com/@ETAPRIME) youtube channel for reviews
  - 4k HDR10/DV-5/7/8, Dolby TrueHD Atmos, DTS:X, 6x4k,20x1080p transcodes, 4xHDDs (WD Ultrastar/Seagate Exos), Ubuntu, Plex Pass/Jellyfin
  - For more transcodes, switch server to [Morefine i5-1340p](https://www.aliexpress.us/item/3256805899996602.html?spm=a2g0o.productlist.main.15.6fba5aabcd8zOU&algo_pvid=d6966323-8ff3-4853-80d5-113f360bb126&algo_exp_id=d6966323-8ff3-4853-80d5-113f360bb126-7&pdp_npi=4%40dis%21USD%21616.78%21345.4%21%21%21616.78%21%21%402101e9d317015503796647709e55c3%2112000035664702815%21sea%21US%210%21AB&curPageLogUid=dpYscHVlux9M)
 
-&nbsp;
-
 <!-- Section -->
 
 ## 1080p/4k HTPC DIY builds
 
 &nbsp;
 
-**CHEAPEST 4K HTPC PLAYER - USED**  
+<!-- Sub-Section -->
+
+### CHEAPEST 4K HTPC PLAYER - USED
 
 TL;DR: Cheapest hardware for 4k@60Hz, HDR and/or 4k netflix player, or a dead simple media server.  
 
