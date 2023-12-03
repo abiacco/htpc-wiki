@@ -2,6 +2,8 @@
 
 *This page is best viewed with a PC web browser.*  
 
+<!-- Section -->
+
 ## What is a HTPC?
 
 HTPC stands for Home Theater Personal Computer.
@@ -28,6 +30,8 @@ This can be confusing; it's not a traditional HTPC per-se, but performs the func
 Below we'll advise you on how to get started with a HTPC.
 
 What is NOT a HTPC: Playing media just on your laptop. Playing media at your desk. Playing media on a computer monitor(s).
+
+<!-- Section -->
 
 ## How do I get started with a HTPC setup?
 
@@ -57,6 +61,8 @@ Setups vary and there are many ways to do things. Finding the best way for you t
 In the next section are listed some quick-fire pre-built solution recommendations for client and server hardware based on common use-cases, with DiY [components](/htpc-wiki/faq#wiki_what_hardware_should_i_choose_for_my_htpc.3F) and special scenarios further below. Detailed, complete PC solutions can be found in the [Building/Buying](/htpc-wiki/sample-builds) page of the Wiki. 
 
 Once you build/buy your solution, you can then follow the setup in the appropriate sections of the video/audio/storage pages of the Wiki mentioned above to connect and configure the individual pieces.  
+
+<!-- Section -->
 
 ## I want a HTPC/media device recommendation, but don't want to get into the complicated details
 
@@ -98,6 +104,8 @@ Network Storage: [Storage Setup Guide](/htpc-wiki/storage)
 Everything else: [Sample Builds/Pre-builts](/htpc-wiki/sample-builds)  
 
 *HD Audio means Dolby TrueHD, DTS-HD, DTS:X, and/or Lossless version of Dolby Atmos*
+
+<!-- Section -->
 
 ## Asking for help
 
@@ -153,13 +161,16 @@ Do NOT ask for help with playing media on [laptop screens or PC monitors](/htpc-
 
  12. Any other specific requirements you have (size, noise, power, etc..)?
 
+<!-- Section -->
 
 ## What hardware should I choose for my HTPC?
 
 Use a tool like [PCPartPicker](http://www.pcpartpicker.com) to see prices for hardware across several vendors and optionally to make sure pieces of a build fit together before you buy.  
 Don't discount the secondary and used markets for hardware, especially when prices are high due to demand and/or scarcity. Ebay and aliexpress are good places to start.  
 
-### Cases: ###
+<!-- Sub-Section -->
+
+### Cases
 
 Cases come in varying shapes and sizes, with numerous features, and at varying price levels. You can spend $30 on a case. You can spend $200. Cases tend to be very personal and subjective, so we'll recommend a bunch in specific types and you can choose.  
 
@@ -189,7 +200,9 @@ uATX & small|Realan 2007C E-Mini, CEMO M1, Inwin [CJ](https://www.in-win.com/en/
 SFF Tower|*ITX:* **[CoolerMaster NR200](https://www.coolermaster.com/catalog/cases/mini-itx/masterbox-nr200/)**, [Geeek M5](https://www.geeekstore.com/product-category/case/), Cougar QBX, [CoolerMaster H100](https://www.coolermaster.com/catalog/legacy-products/cases/mastercase-h100/), [SSUPD Meshlicious](https://www.ssupd.co/products/meshlicious) *uATX:* [Sama IM01](https://pcpartpicker.com/product/pfvdnQ/sama-im01-microatx-mini-tower-case-im01), Jonsbo [U3](https://www.jonsbo.com/en/products/u3black.html) / [V4](https://www.jonsbo.com/en/products/v4black.html)
 Water Cooling|Silverstone GD11, [SFFTime N-ATX](https://www.sfftime.com/n-atx), SSUPD Meshroom S, CoolerMaster NR200, Lian Li A4-H2O
 
-### CPUs: ###
+<!-- Sub-Section -->
+
+### CPUs
 
 The CPU you choose for a HTPC will be heavily influenced by what your usage profile for the system looks like. 
 You could be using it as a frontend player, a dual-duty gaming pc or a backend media server, so there isn't necessarily a one size fits all to the CPU you should choose. 
@@ -227,7 +240,9 @@ Below are the minimum CPUs required for each scenario and a recommendation. **Al
 
 - Plex Transcoding: Intel >= i3/i5/i7-7xxx iGPU (REC: Intel i3-12100)  
 
-### GPUs/Graphics: ###
+<!-- Sub-Section -->
+
+### GPUs/Graphics
 
 **In most cases, a CPU that has an integrated GPU as recommended above will work fine for new HTPCs**. If you need more than what they provide or you're adding onto an existing system, then a dGPU is warranted. Since HTPCs are in listening environments and tend to be small, low TDP, low profile dGPUs are what we aim for to keep heat and noise in check, wherever possible. You can pair these up with CPU without the integrated GPUs. For Intel these are 'F' tagged skus. For AMD, non 'G' tagged skus.  
 
@@ -310,7 +325,9 @@ Nvidia RTX 40xx								|	Y		|	Y		|	Y	|	Y		|2.1		|1.4	|	Y	|	Y		|	Y		|Ada Lovelace
 (11) 4k@120 Hz 4:2:2 10-bit HDR - 32 Gbps (mobo limited)  
 (12) DP 2.1 - 40 Gbps with usb available on specific 13xxx mobo SKUs  
 
-### Motherboards: ###
+<!-- Sub-Section -->
+
+### Motherboards
 
 Motherboards are sometimes a matter of preference, however many of the higher-end features, like integrated RAID support, RGB, and multiple network interfaces, aren't particularly helpful in a HTPC environment.  
 The best values are in motherboards with the Bxxx chipsets for Intel/AMD, so that's what we recommend.  
@@ -326,13 +343,17 @@ Example Combinations:
 BRANDS/MODELS:  
 Asus, MSI, Gigabyte, ASRock. Avoid Biostar!  
 
-### Displays: ###
+<!-- Sub-Section -->
 
-See [/r/4kTV](/r/4kTV), [/r/Televisions](/r/Televisions) and [/r/Projectors](/r/Projectors) sub-reddits.  
+### Displays
+
+See [/r/4kTV](https://www.reddit.com/r/4kTV), [/r/Televisions](https://www.reddit.com/r/Televisions) and [/r/Projectors](https://www.reddit.com/r/Projectors) sub-reddits.  
 
 We will not support Laptop Screens or PC Monitors as Home Theater display devices due to: lack of low (23p-25p) refresh rate matching support, lack of ARC/eARC, poor contrast ratios (< 3000:1), upscaling and HDR capabilities compared to TVs, along with non-standard (1440p) resolutions that can't be passed-through sound systems.  
 
-### Memory/RAM: ###
+<!-- Sub-Section -->
+
+### Memory/RAM
 
 Most HTPC applications do not need very much RAM. You can get away with 4GB of RAM, especially on Linux-based OSes. On Windows, shoot for at least 8GB nowadays, unless you're on a strict budget.  
 
@@ -345,7 +366,9 @@ BRANDS/MODELS:
 
 [Example PCPartPicker RAM search](https://pcpartpicker.com/products/memory/#xcx=0&U=4&t=14&S=3200,6600&Z=8192002,16384002,32768002&sort=price&page=1&R=5,4,3)  
 
-### Storage/HDDs/SSDs: ###
+<!-- Sub-Section -->
+
+### Storage/HDDs/SSDs
 
 Your OS should be stored on a SSD. Shoot for at least a 2.5" 250GB SATA drive. A SATA SSD will be 30-50x faster than a HDD at OS operations. A M.2 NVMe SSD with transfer rates of 1500 MB/s will be around 2x faster than a SATA SSD and is the best option, while reducing cable clutter in the process. A high-end M.2 NVMe SSD @ 3000 MB/s will be 5x faster than a SATA SSD, but does not make sense price-wise unless you have highly sequential read/write tasks (which shouldn't happen on an OS drive).  
 
@@ -365,7 +388,9 @@ SSDs:
 HDDS: Ultrastar, Seagate Exos, WD Red  
 [Example PCPartPicker SSD search](https://pcpartpicker.com/products/internal-hard-drive/#xcx=0&A=128000000000,20000000000000&t=0&f=3,122080&sort=price&R=5,4,3)  
 
-### Optical Drives: ###
+<!-- Sub-Section -->
+
+### Optical Drives
 
 NOTE: UHD/4k blu-ray **disc** playback is not recommended due to hardware restrictions. See [here](https://www.cyberlink.com/support/faq-content.do?id=19144) and [here](/htpc-wiki/faq#wiki_what_do_i_need_for_4k_ultrahd_compatibility.3F)   
 
@@ -391,7 +416,9 @@ Internal: LG WH16NS60
 Internal, Slim: LG BU40N  
 External, Slim: Archgon MD-8107S/Buffalo BRUHD-PU3/LG BP60NB10  
 
-### Power Supplies/Power Usage: ###
+<!-- Sub-Section -->
+
+### Power Supplies/Power Usage
 
 **Power Supplies**
 
@@ -438,9 +465,6 @@ SFX: Seasonic Focus SGX, Silverstone ST30SF/SX, Corsair SF, EVGA GM, FSP Dagger 
 Pico: [HDPlex](https://hdplex.com/hdplex-fanless-250w-gan-aio-atx-psu.html), [Mini-Box](https://mini-box.com), [RGeek](https://www.amazon.com/stores/RGEEK/page/616B17E4-8578-4D17-B851-98993644408F?ref_=ast_bln)  
 Flex: [Enhance](https://www.geeekstore.com/product-category/power-supply/), [Silverstone](https://www.silverstonetek.com/en/product/power-supplies/?page=1&filter=TFX_Flex_ATX&sort=Newsest): mod w/Noctua 40mm fan for low noise.  
 
-
-&nbsp; 
-
 **Power Usage**
 
 Now that you know what kind of PSU you should look for, how much will the power cost? Well, we're going to assume 24/7/365 operation here.
@@ -455,7 +479,9 @@ So let's take our 100W example for 24/7 usage in a month of 732 hours (24 hrs*30
 
 (100 * 732) / 1000 * .12 = $8.78/month
 
-### Cooling: ###
+<!-- Sub-Section -->
+
+### Cooling
 
 In almost all circumstances, the manufacturer-supplied CPU heat sink and fan is sufficiently cool, and it's not useful to immediately jump to an expensive aftermarket cooler until you know you need one. 
 
@@ -477,7 +503,9 @@ For cpu coolers, look at the Noctua [NH-L9i](http://noctua.at/en/products/cpu-co
 
 Check our [CPU Coolers](/htpc-wiki/cpucoolers) wiki page for an extended list.  
 
-### Surge Suppression: ###
+<!-- Sub-Section -->
+
+### Surge Suppression
 
 Surge suppressors are a good idea for protecting your equipment, especially in regions where lightning is or voltage spikes are prevalent.  
 
@@ -497,7 +525,9 @@ Tripp Lite TLP1208TEL - 12 plug, 3345 Joules, 1800W, $150k protection, Tele ($50
 
 Belkin Pivot-Plug 12 BP112230-08 - 12 plug, 4320 Joules, 1875W, $300k protection, Tele/coax ($45)  
 
-### Video Cables/Adapters: ###
+<!-- Sub-Section -->
+
+### Video Cables/Adapters
 
 Refer to [this table](https://images.idgesg.net/images/article/2018/02/formatdataratetable-100750471-large.jpg) for the bandwidth and cable speed required for each resolution/refresh rate/chroma.
 
@@ -525,7 +555,9 @@ If you need an active Displayport to HDMI adapter, buy one from a reputable vend
 
 If you need a USB-C to HDMI adapter, we recommend Cable Matters [Adapter](https://www.amazon.com/Cable-Matters-Braided-Adapter-Aluminum/dp/B08KSMK87K)/[Cable](https://www.amazon.com/Cable-Matters-USB-C-Supporting-Black/dp/B073H9RG9T) for 4K@60Hz and Cable Matters [Adapter](https://www.amazon.com/dp/B08MSWMXT4)/[Cable](https://www.amazon.com/dp/B08QDV5H4M) for up to 4K@120Hz.  
 
-### Keyboards/Remotes/Gamepads: ###
+<!-- Sub-Section -->
+
+### Keyboards/Remotes/Gamepads
 
 It's highly recommended that you do NOT put 2.4 Ghz wifi routers in the same room as RF or BT devices below.  
 
@@ -588,6 +620,8 @@ To get HDMI-CEC functionality where none exists, use a [Pulse Eight](https://www
 To transmit IR from your HTPC to other devices, use a [USB-UIRT](http://www.usbuirt.com/).  
 
 On the software side, [Plex HTPC](https://support.plex.tv/articles/plex-htpc-input-maps/), [Kodi](https://kodi.wiki/view/Remote_controls), and [Jriver Media Center](https://wiki.jriver.com/index.php/Remotes) all support multiple remote types. You can also use [AutoHotKey](https://www.autohotkey.com/) and/or [EventGhost](http://www.eventghost.net/) to automate keyboard tasks.  
+
+<!-- Section -->
 
 ## How do i wake/power on/power off my HTPC with a remote/mobile app?
 
@@ -669,7 +703,7 @@ If you DO need to serve media to other devices (local or remote), [Plex Media Se
 
 **Launchers:** 
 
-For a launcher interface to open multiple apps, look at [Flex Launcher](https://github.com/complexlogic/flex-launcher) (Windows/Linux), [Steam Big Picture mode](https://store.steampowered.com/bigpicture) (Windows/Linux/Mac), [Windows 10 start menu in full screen mode](/r/htpc/comments/92ek4d/homescreen_for_htpc_and_ideas_for_what_i_can_put/e356duu/), [Windows tablet mode](https://www.tenforums.com/tutorials/3755-turn-off-tablet-mode-windows-10-a.html), or [customize Kodi](https://kodi.wiki/view/Archive:HOW-TO:Make_Windows_boot_directly_to_Kodi_\(as_a_shell\)) and use [add-ons/favorites](https://kodi.wiki/view/Favourites).  
+For a launcher interface to open multiple apps, look at [Flex Launcher](https://github.com/complexlogic/flex-launcher) (Windows/Linux), [Steam Big Picture mode](https://store.steampowered.com/bigpicture) (Windows/Linux/Mac), [Windows 10 start menu in full screen mode](https://www.reddit.com/r/htpc/comments/92ek4d/homescreen_for_htpc_and_ideas_for_what_i_can_put/e356duu/), [Windows tablet mode](https://www.tenforums.com/tutorials/3755-turn-off-tablet-mode-windows-10-a.html), or [customize Kodi](https://kodi.wiki/view/Archive:HOW-TO:Make_Windows_boot_directly_to_Kodi_\(as_a_shell\)) and use [add-ons/favorites](https://kodi.wiki/view/Favourites).  
 
 **Organization:** 
 
@@ -815,7 +849,7 @@ A more involved setup would be connecting a [tuner](https://linuxtv.org/wiki/ind
 
 You can use MCEBuddy to remove commercials and convert your recorded programming to other file formats.  
 
-For a more complete, albeit old, guide to setting up live TV with a generic TV tuner using ServerWMC and MediaBrowser, [see this post.](/r/htpc/comments/2vc16r/guide_network_streaming_of_live_tv_access_tv/). You can use MCEBuddy remove commercials and convert your recorded programming to other file formats for use with PleX Media Server, Kodi or Mediabrowser.  
+For a more complete, albeit old, guide to setting up live TV with a generic TV tuner using ServerWMC and MediaBrowser, [see this post.](https://www.reddit.com/r/htpc/comments/2vc16r/guide_network_streaming_of_live_tv_access_tv/). You can use MCEBuddy remove commercials and convert your recorded programming to other file formats for use with PleX Media Server, Kodi or Mediabrowser.  
 
 **From Cable (encrypted):** 
 
