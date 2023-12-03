@@ -1,7 +1,7 @@
 # HDR Setup Guide
 
-This setup guide is only for HDR10 passthrough. High-end tonemapping is not discussed here. Dolby Vision/HDR10**+** is not discussed here as **no passthrough options exist** on PC. Read our [HDR section](/r/htpc/wiki/faq#wiki_what_is_hdr_video_and_what_do_i_need_to_take_advantage_of_it.3F) in the Wiki FAQ for detailed information and requirements.  
-We assume your display, video chain and media player have already been configured/calibrated properly for non-HDR content before you venture into the HDR setup below. If not, you are urged to follow the setup sections in the [Video Setup](/r/htpc/wiki/video#wiki_setup) wiki page first.  
+This setup guide is only for HDR10 passthrough. High-end tonemapping is not discussed here. Dolby Vision/HDR10**+** is not discussed here as **no passthrough options exist** on PC. Read our [HDR section](/htpc-wiki/faq#wiki_what_is_hdr_video_and_what_do_i_need_to_take_advantage_of_it.3F) in the Wiki FAQ for detailed information and requirements.  
+We assume your display, video chain and media player have already been configured/calibrated properly for non-HDR content before you venture into the HDR setup below. If not, you are urged to follow the setup sections in the [Video Setup](/htpc-wiki/video#wiki_setup) wiki page first.  
 You are **strongly urged** to test out the simple setups below before potentially moving onto the advanced ones.  
 
 ## WINDOWS
@@ -116,7 +116,7 @@ Simple, HDR passthrough, tonemapping.
 
    *Kodi app ->*  
 
-   Play a [test HDR video](/r/htpc/wiki/hdr#wiki_hdr_tests). [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
+   Play a [test HDR video](/htpc-wiki/hdr#wiki_hdr_tests). [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
 
 ### **VLC**
 
@@ -148,7 +148,7 @@ Simple, HDR passthrough.
 
    *VLC app ->*  
 
-   Play a [test HDR video](/r/htpc/wiki/hdr#wiki_hdr_tests). [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
+   Play a [test HDR video](/htpc-wiki/hdr#wiki_hdr_tests). [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
 
 ### **MPC-BE + MPC Video Renderer**
 
@@ -188,7 +188,7 @@ Simple, HDR passthrough, tonemapping and upscaling.
 
    *MPC-BE app ->*  
 
-     Play a [test HDR video](/r/htpc/wiki/hdr#wiki_hdr_tests) and press Ctrl+J to show stats. If "Times" stats are >= 35ms you're doing too much processing (like upscaling/tonemapping). If "Frames" shows significant skipped frames, your GPU isn't powerful enough. [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
+     Play a [test HDR video](/htpc-wiki/hdr#wiki_hdr_tests) and press Ctrl+J to show stats. If "Times" stats are >= 35ms you're doing too much processing (like upscaling/tonemapping). If "Frames" shows significant skipped frames, your GPU isn't powerful enough. [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
 
 ### **MPC-HC/MPC-BE + madVR**
 
@@ -268,7 +268,7 @@ Advanced, more powerful tonemapping, upscaling and processing than using MPC Vid
 
    *MPC-HC/BE app ->*  
 
-     Play a [test HDR video](/r/htpc/wiki/hdr#wiki_hdr_tests) and press Ctrl+J to show stats. If avg/max rendering stats are >= 35ms, you're either doing too much madVR processing or your GPU isn't powerful enough. [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
+     Play a [test HDR video](/htpc-wiki/hdr#wiki_hdr_tests) and press Ctrl+J to show stats. If avg/max rendering stats are >= 35ms, you're either doing too much madVR processing or your GPU isn't powerful enough. [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
 
 * *Update MadVR* (OPTIONAL)  
 
@@ -436,7 +436,7 @@ Advanced, current way to integrate madVR into Kodi for passthrough, tonemapping,
 
    *Kodi app ->*  
 
-    Play a [test HDR video](/r/htpc/wiki/hdr#wiki_hdr_tests) and press Ctrl+J to show stats. If avg/max rendering stats are >= 35ms, you're either doing too much madVR processing or your GPU isn't powerful enough. [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
+    Play a [test HDR video](/htpc-wiki/hdr#wiki_hdr_tests) and press Ctrl+J to show stats. If avg/max rendering stats are >= 35ms, you're either doing too much madVR processing or your GPU isn't powerful enough. [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
 
 * *Update MadVR* (OPTIONAL)  
 
@@ -520,7 +520,7 @@ Advanced, old way to integrate madVR into Kodi for passthrough, tonemapping, and
 
    *Kodi app ->*  
 
-     Play a [test HDR video](/r/htpc/wiki/hdr#wiki_hdr_tests) and press Ctrl+J to show stats. If avg/max rendering stats are >= 35ms, you're either doing too much madVR processing or your GPU isn't powerful enough. [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
+     Play a [test HDR video](/htpc-wiki/hdr#wiki_hdr_tests) and press Ctrl+J to show stats. If avg/max rendering stats are >= 35ms, you're either doing too much madVR processing or your GPU isn't powerful enough. [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
 
 * *Update MadVR* (OPTIONAL)  
 
@@ -546,7 +546,7 @@ Simple, HDR Passthrough or Tonemapping
 
    *Plex HTPC app ->*  
 
-   Play a [test HDR video](/r/htpc/wiki/hdr#wiki_hdr_tests). [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
+   Play a [test HDR video](/htpc-wiki/hdr#wiki_hdr_tests). [If the colors in your video are washed out](https://i.imgur.com/AD6lOIS.jpg), either you don't have proper PC/TV hardware support for HDR, aren't using HDMI 2.x ports, or don't have TV deep color configured.  
 
 &nbsp;
  
