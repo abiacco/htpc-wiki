@@ -1,3 +1,5 @@
+# /r/htpc Wiki
+
 ---
 
 <!-- # Table of Contents -->
