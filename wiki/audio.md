@@ -139,7 +139,7 @@ Scenarios are listed as Most Desirable to Least Desirable.
 
 Scenario #1 listed below, with video passthrough through your sound system, is the best scenario. However, if you have an older sound system that doesn't support video passthrough for the features you need, like 4k, HDR or high refresh rates for gaming, then the best scenarios in order are: #2 (earc), #3, #4, #2 (arc/optical).  
 
-Consult [this section](/htpc-wiki/faq#video-cables-adapters) of the wiki FAQ for cable/adapter recommendations. Consult [this section](/htpc-wiki/audio#what-kind-of-sound-system-should-i-get) below for sound system recommendations.  
+Consult [this section](/htpc-wiki/faq#video-cablesadapters) of the wiki FAQ for cable/adapter recommendations. Consult [this section](/htpc-wiki/audio#what-kind-of-sound-system-should-i-get) below for sound system recommendations.  
 
 **Scenario #1** - The ideal scenario is to connect your HTPC to your sound system and then connect your sound system to your TV - [DIAGRAM](https://imgur.com/MWYvscz)  
 
@@ -615,7 +615,9 @@ As a last resort, you can output to just analog surround sound speakers connecte
 
 Lastly, if you want and can support Atmos from your games, install the [Dolby Access](https://www.microsoft.com/en-us/store/p/dolby-access/9n0866fs04w8) app from the Microsoft store and inside of it enable Dolby Atmos for Home Theater.  
 
-## How can I send 4k video to my TV and HD audio to my old AVR without cloning/extending my display?
+<!-- Sub-Section -->
+
+### How can I send 4k video to my TV and HD audio to my old AVR without cloning/extending my display?
 
 You can use a good HDMI 2.0 splitter to send 4k/60hz video to a display and HD audio (TrueHD/DTS:X/etc..) to an old AVR that only supports HDMI 1.3/1.4. Find an old/now-discontinued HD Fury AVR Key or Integral. If not, then the ViewHD or SIIG in the "[HDMI 2.0 Splitters](/htpc-wiki/audio#accessories)" section below are the best bets. They won't work with all hardware combinations, and you may have to fiddle with the EDID dip switches quite a bit in the initial setup, but should work.  
 
@@ -629,7 +631,7 @@ Yes.
 
 If you have a spare DisplayPort port (either on a dGPU or on your motherboard with a CPU iGPU) you can use a simple, **PASSIVE** [DisplayPort to HDMI cable/adapter](https://www.amazon.com/Amazon-Basics-Uni-Directional-DisplayPort-Display/dp/B015OW3M1W) to get HD audio to an HDMI port on a sound system.  
 
-If you have a USB-C port (that supports DP Alt Mode video out) you can use a [USB-C to HDMI cable/adapter](/htpc-wiki/faq#video_cables.2Fadapters.3A) to do the same thing. Your mileage may vary depending on the adapter and source device, so use a recommended adapter/cable.  
+If you have a USB-C port (that supports DP Alt Mode video out) you can use a [USB-C to HDMI cable/adapter](/htpc-wiki/faq#video-cablesadapters) to do the same thing. Your mileage may vary depending on the adapter and source device, so use a recommended adapter/cable.  
 
 Keep in mind that any audio passed over HDMI/DisplayPort/USB-C requires a video signal to be active on the connection as well. You can't get audio without video, so you will either have to use an extended or cloned display for it to work, though the resolution required is minimal (720p).  
 
@@ -640,7 +642,7 @@ If you need to bitstream audio:
 - Use a USB-C->HDMI adapter and a USB-C video port that support DP ALT MODE  
 - Use multiple video outputs; audio over a passive adapter, video over an active adapter  
 
-See the [Video Cables/Adapters](/htpc-wiki/faq#video_cables.2Fadapters.3A) section of the Wiki FAQ for more recommendations.  
+See the [Video Cables/Adapters](/htpc-wiki/faq#video-cablesadapters) section of the Wiki FAQ for more recommendations.  
 
 <!-- Sub-Section -->
 
