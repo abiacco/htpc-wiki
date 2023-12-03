@@ -1,4 +1,4 @@
-# HTPC FAQ
+# FAQ
 
 *This page is best viewed with a PC web browser.*  
 
