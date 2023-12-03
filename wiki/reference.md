@@ -1,4 +1,4 @@
-## HTPC term reference
+# HTPC Term Reference
 
 This is a list of terms you may find on this subreddit and what they mean
 
