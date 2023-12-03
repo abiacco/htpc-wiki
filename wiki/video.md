@@ -1,12 +1,12 @@
+# Video Setup Guide
+
+*This page is best viewed with a PC web browser.*  
+
 &nbsp;
 
 **THIS PAGE IS IN A DRAFT STATE AND UNDER CONSTRUCTION**
 
 &nbsp;
-
-# VIDEO SETUP GUIDE
-
-*This page is best viewed with a PC web browser.*  
 
 ## How do I configure my htpc/media device for video?
 
