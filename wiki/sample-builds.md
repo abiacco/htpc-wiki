@@ -10,7 +10,7 @@ For current deals/promotions on parts for your build, try [r/buildapcsales](http
 
 &nbsp;
 
-### 1080p/4k HTPC Pre-builts/Mini-PCs
+## 1080p/4k HTPC Pre-builts/Mini-PCs
 
 &nbsp;
 
