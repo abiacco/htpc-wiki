@@ -10,6 +10,8 @@ For current deals/promotions on parts for your build, try [r/buildapcsales](http
 
 &nbsp;
 
+<!-- Section -->
+
 ## 1080p/4k HTPC Pre-builts/Mini-PCs
 
 &nbsp;
@@ -104,10 +106,11 @@ See [ETA PRIME](https://www.youtube.com/@ETAPRIME) youtube channel for reviews
  - 4k HDR10/DV-5/7/8, Dolby TrueHD Atmos, DTS:X, 6x4k,20x1080p transcodes, 4xHDDs (WD Ultrastar/Seagate Exos), Ubuntu, Plex Pass/Jellyfin
  - For more transcodes, switch server to [Morefine i5-1340p](https://www.aliexpress.us/item/3256805899996602.html?spm=a2g0o.productlist.main.15.6fba5aabcd8zOU&algo_pvid=d6966323-8ff3-4853-80d5-113f360bb126&algo_exp_id=d6966323-8ff3-4853-80d5-113f360bb126-7&pdp_npi=4%40dis%21USD%21616.78%21345.4%21%21%21616.78%21%21%402101e9d317015503796647709e55c3%2112000035664702815%21sea%21US%210%21AB&curPageLogUid=dpYscHVlux9M)
 
-
 &nbsp;
 
-### 1080p/4k HTPC DIY builds
+<!-- Section -->
+
+## 1080p/4k HTPC DIY builds
 
 &nbsp;
 
@@ -377,7 +380,9 @@ TOTAL	|										|$815	|					|
 
 &nbsp;
 
-### NAS/Media Server builds ###
+<!-- Section -->
+
+## NAS/Media Server builds
 
 &nbsp;
 
@@ -601,7 +606,9 @@ TOTAL		|										|$150		|	NA			|
 
 &nbsp;
 
-### Gaming Emulation builds ###
+<!-- Section -->
+
+## Gaming Emulation builds
 
 &nbsp;
 
@@ -731,7 +738,9 @@ TOTAL		|											|$790	|		|
 
 &nbsp;
 
-### Gaming builds ###
+<!-- Section -->
+
+## Gaming builds
 
 &nbsp;
 
@@ -784,7 +793,9 @@ TOTAL	|						|	$1035	|
 
 &nbsp;
 
-### VR builds ###
+<!-- Section -->
+
+## VR builds
 
 &nbsp;
 
@@ -842,3 +853,4 @@ COOL		|Thermalright AXP90-X47 CPU cooler 						|$35				|[pcpartpicker](https://p
 COOL		|Noctua NF-A9x14 92mm Case fans 3x				|$60				|[Quietpc](https://www.quietpc.com/nf-a9x14-hs-pwm-ch-bk-s)	|2x is ok too for less noise, +4-5C temp
 PSU			|EVGA SuperNOVA 550 GM				|$110			|[pcpartpicker](https://pcpartpicker.com/product/QgyV3C/evga-supernova-gm-550w-80-gold-certified-fully-modular-sfx-power-supply-123-gm-0550-y1)	|ALT: [Corsair SF600 Full-Modular 600W SFX](https://pcpartpicker.com/product/CQ648d/corsair-power-supply-cp9020105na) ($125)
 TOTAL		|											|$844			|	|
+
