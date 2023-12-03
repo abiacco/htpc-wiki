@@ -1,4 +1,4 @@
-# STORAGE SETUP GUIDE
+# Storage Setup Guide
 
 ## General
 
