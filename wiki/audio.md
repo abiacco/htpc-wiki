@@ -81,8 +81,7 @@ RCA (red/white/etc): Analog: 1 channel/connector. Bitstreamed/PCM: None
 3.5mm: Analog: 1-2 channel(s)/connector. Bitstreamed/PCM: None  
 
 USB/Bluetooth: Digital. Channels dependent on external sound device connected. Bluetooth is **NOT** recommended for audio in video content due to inherent latency in the protocol. See audio sync section below.  
-
-&nbsp;
+<!-- Sub-Section -->
 
 ### **Audio Software**
 
@@ -122,17 +121,19 @@ See also: [Video Software](/htpc-wiki/video#wiki_video_software)
 6. [APO Driver](https://puresoftapps.blogspot.com/2018/04/realtek-apo-driver.html) - Audio Enhancements, re-encoders. 
 7. [ffdshow](https://sourceforge.net/projects/ffdshow-tryout/files/Official%20releases/) - Defunct. Audio codecs/filters/splitters/mixers. 
 
-&nbsp;
+<!-- Section -->
 
-### **Setup**
+## **Setup**
 
-**Hardware Setup**  
+<!-- Sub-Section -->
+
+### **Hardware Setup**  
 
 There are many ways to connect your HTPC/media device to your sound system and Display.  
 This could be with HDMI, DisplayPort, Optical/SPDIF, RCA or 3.5mm or a combination of any of them.  
 This is a complicated topic given that you probably have at least 3 pieces of hardware (HTPC, Sound System, Display) that have various connection types/capabilities and have to agree on what they will do together. As such, it can get confusing quickly, so read this section carefully and multiple times if you have to. Understanding the previously laid out concepts is also very useful.  
 
-Before you try any of the following scenarios, consider what you're trying to achieve and what your hardware is capable of; What resolutions and refresh rates are you trying to display? What audio codecs are you trying to play? Are you gaming and is VRR (g-sync/freesync) required? What ports are on your sound system and display and what specs are they (HDMI 1.x/2.x, DisplayPort 1.x/2.x, optical, rca), etc.. This information is critical and should be gotten from your device manuals and spec pages on the mfgr's websites. Armed with those and with the information in the Interfaces and Codecs sections above, you should have a good idea of what your hardware is capable of and a good sense of the optimal scenario for what you're trying to achieve. If you ask us for help, provide all this information, so we can better help you.  
+Before you try any of the following scenarios, consider what you're trying to achieve and what your hardware is capable of; What resolutions and refresh rates are you trying to display? What audio codecs are you trying to play? Are you gaming and is VRR (g-sync/freesync) required? What ports are on your sound system and display and what specs are they (HDMI 1.x/2.x, DisplayPort 1.x/2.x, optical, rca), etc.. This information is critical and should be gotten from your device manuals and spec pages on the mfgr's websites. Armed with those and with the information in the Interfaces and Codecs sections above, you should have a good idea of what your hardware is capable of and a good sense of the optimal scenario for what you're trying to achieve. If you ask us for help, provide all this information, so we can better help you. 
 
 Scenarios are listed as Most Desirable to Least Desirable.  
 
@@ -233,10 +234,9 @@ In this scenario you will likely be bitstreaming through Optical, or in the case
 
  NOTE: An audio extractor will not DECODE Dolby/DTS audio, it just passes it through to the optical connector. If you send such a signal in and expect audio out of the RCA/3.5" connectors, you will get NO audio; you either have to pass PCM in to get audio out of those connectors, or use an AVR/decoder box behind the optical port, like [this](https://www.amazon.com/J-Tech-Digital-Optical-Toslink-Converter/dp/B01A1HQE38).  
 
+<!-- Sub-Section -->
 
-&nbsp;
-
-**Software/OS Setup**  
+### **Software/OS Setup**  
 
 There are 2 ways to send audio between your HTPC and your sound system, Bitstreaming and Decoding. Depending on your use-case you may be using one or both. A use-case where you'd use both is where you want to bitstream codecs from a media player(s), but send PCM for games; so you'd configure bitstreaming for your media players and configure decoding in windows sound control panel for PCM  
 
@@ -278,9 +278,9 @@ NOTES:
 
 There are advanced things you can do by using application middleware and external filters like [transcoding audio codecs](/htpc-wiki/audio#wiki_my_sound_system_only_supports_decoding_dolby_digital.2C_but_i_want_to_play_content_with_varying_formats._how_to_i_re-encode_it_all_to_dolby_digital.3F), decoding obscure codecs and advanced mixing. See Audio Software section above.  
 
-&nbsp;
+<!-- Sub-Sub-Section -->
 
-### **Application-Specific Setup For Bitstreaming**
+#### **Application-Specific Setup For Bitstreaming**
 
 Most players have audio passthrough support built-in, to be set up as per below.  
 *If you need more advanced functionality, you can use filters external to your media player (where supported). See the External sub-section below.*  
@@ -354,9 +354,13 @@ EXTERNAL: OPTIONAL: If you need/want an advanced/specialized audio decoder/filte
 4. Restart your media player app  and play test content from the [sample audio](/htpc-wiki/audio#wiki_where_do_i_find_sample_audio_files_to_test.3F) section below.  
 5. If configured correctly, you should see the blue LAV Audio icon in the system tray. Click on it and then on the Status Tab to see the audio being bitstreamed.  
 
-&nbsp;
+<!-- Section -->
 
-## What kind of audio is supported on a HTPC?
+## Common Questions
+
+<!-- Sub-Section -->
+
+### What kind of audio is supported on a HTPC?
 
 Media Player Apps: Up to Dolby TrueHD Atmos, DTS:X  
 
@@ -372,9 +376,9 @@ Gaming: [PCM 5.1/7.1, Dolby Digital Live w/supported sound card or APO, Dolby At
 3. Firefox: [PCM/AAC/MP3](https://support.mozilla.org/en-US/kb/html5-audio-and-video-firefox)  
 4. Safari (10+): PCM/AAC/MP3/DD+  
 
-&nbsp;
+<!-- Sub-Section -->
 
-## Why is the volume of my audio so wide ranging? e.g. voices are quiet, explosions are loud
+### Why is the volume of my audio so wide ranging? e.g. voices are quiet, explosions are loud
 
 If you are playing audio with a different channel configuration than the number of speakers you have, you will be missing some audio fidelity. 
 For example, you may notice that voices are very quiet if you are playing Surround sound (5.1+) when you only have Stereo (2.0) speakers. This is because voices are in the center channel of surround sound audio, which isn't in stereo.  
@@ -405,9 +409,9 @@ You can read more about Normalization [here](https://www.realhd-audio.com/?p=674
 
 8. If you're playing local content, re-encode the audio stream in the content to your speaker configuration. For example, to fix 5.1 for stereo you might use FFMpeg's [dynamic audio normalization](https://ffmpeg.org/ffmpeg-filters.html#dynaudnorm) with the flag "-af dynaudnorm" to level out the audio, or the [downmix](https://trac.ffmpeg.org/wiki/AudioChannelManipulation) flags to downmix the channels, or use [eac3to](https://en.wikibooks.org/wiki/Eac3to/How_to_Use) with the flag "-downtoStereo" or "-downDPL". This is more work up front, but if you want the audio consistent across a wide range of media players/clients, which may or may not have audio normalization functionality, this becomes a more feasible option. If you need to change content on a mass scale, look at the [Tdarr](https://tdarr.io/) server software. It can watch a number of folders and then use plugins to re-encode your audio streams based on conditions you specify.  
 
-&nbsp;
+<!-- Sub-Section -->
 
-## Why does my sound system only play Stereo/2-channels or PCM/Multi-channel when trying to bitstream a surround sound codec?  
+### Why does my sound system only play Stereo/2-channels or PCM/Multi-channel when trying to bitstream a surround sound codec?  
 
 1. You haven't set up your hardware/software correctly.  
  You haven't followed the steps for setting up your PC hardware/software correctly for bitstreaming. See sections above.  
@@ -429,12 +433,11 @@ You can read more about Normalization [here](https://www.realhd-audio.com/?p=674
  Decide which is more important to you, bitstreaming or use of the middleware. If bitstreaming, don't use the middleware or find additional middleware to re-encode the audio.  
 7. You're using an ACTIVE DP/USB->HDMI adapter or cable. You can't bitstream audio over an active adapter. The max you can do is PCM audio. If you need to bitstream, use a PASSIVE adapter.  
 
-&nbsp;
+<!-- Sub-Section -->
 
-## Why does my Operating System only show Stereo/2-channels in the sound control panel when i have a surround sound channel system?
+### Why does my Operating System only show Stereo/2-channels in the sound control panel when i have a surround sound channel system?
 
 In order to determine what audio codec/channel configuration is supported on devices, the operating system will usually get its information from something called EDID via the display interface (HDMI/DVI/etc..)  
-
 If you're connecting your HTPC directly to a TV first, it will usually detect only the capabilities of the TV, as Stereo per the internal speakers (even if you're using HDMI ARC/Optical to pass-through to a sound system). [Check here](https://www.rtings.com/tv/tests/inputs/5-1-surround-audio-passthrough) that your TV actually supports passing through the audio formats you want over HDMI ARC/eARC/Optical and what to set in your TV's menu to enable it. If that doesn't work, it is usually solved by exporting the EDID data coming from the TV and then editing the Audio Block portion of it to add the audio formats supported by your sound system (Way #2/#3).  
 
 If you're connecting your HTPC directly to a Surround sound system first and then passing through the video to a TV (i.e. Scenario #1 above), it will sometimes detect the audio capabilities of the TV at the end of the HDMI link and not the capabilities of the Surround sound system. This can sometimes be solved by a setting on your AV Receiver (if applicable). See Way #1 below. If that doesn't work, it is usually solved by exporting the EDID data coming from the TV and then editing the Audio Block portion of it to add the audio formats supported by your sound system (Way #2/#3).  
@@ -478,8 +481,10 @@ Way #3
 9. Export to a .exe file. Exit CRU.
 10. Run the exported .exe
 
-## Why does my HTPC change audio/display settings when switching inputs or waking from Sleep/Power up?
-## Why does my sound system not work unless the display is on?
+<!-- Sub-Section -->
+
+### Why does my HTPC change audio/display settings when switching inputs or waking from Sleep/Power up?
+### Why does my sound system not work unless the display is on?
 
 Sometimes when you change inputs or power on/off devices, especially in a certain order, your HTPC can change settings, like reverting your audio configuration from Surround Sound back to Stereo, changing your windows/icon layouts on your display, or disabling sound altogether (especially if your display is off).  
 
@@ -492,7 +497,9 @@ Alternatively, you can also try forcing the resolution on display disconnect to 
 Now when Windows detects no monitor on disconnect, it should keep the same resolution instead of auto-detecting it and re-positioning windows/resetting audio.  
 2. [Use the CRU utility to lock your resolution](https://forum.kodi.tv/showthread.php?tid=251833&pid=3091782#pid3091782)
 
-## When I play my content, why is the audio out of sync with the video?
+<!-- Sub-Section -->
+
+### When I play my content, why is the audio out of sync with the video?
 
 If your audio is ahead of the video:  
 1. This can happen when your audio path is different than your video path; for instance, you run optical from your HTPC to your AV receiver for audio and HDMI from your HTPC to your display for video. This usually happens if the display is doing extra processing on the video, causing it to lag behind. To alleviate this, either use a mode on the display with low to no processing, like Game mode, or turn off heavy processing like Motion smoothing.  
@@ -511,11 +518,15 @@ If ahead/behind delays occur on specific content, it could indicate that the con
  
 If all else fails, most media players (plex, kodi, mpc, etc..) and middleware software (such as [LAV](https://github.com/Nevcairiel/LAVFilters/releases) or ffdshow) have an option to either delay the audio with a time offset or have a feature that allows you to Sync Audio to Display. If you're using a AV Receiver it may also have a lipsync offset that you can alternatively set.  
 
-## When I play my content, why does the audio start playing with a delay?
+<!-- Sub-Section -->
+
+### When I play my content, why does the audio start playing with a delay?
 
 You could be encountering a "feature" that causes a digital audio connection (SPDIF or HDMI) to go to sleep, [into a power saving D3 state](https://www.intel.com/content/dam/www/public/us/en/documents/product-specifications/high-definition-audio-specification.pdf), when audio stops playing for a period of time. It takes some time for the connection to come back to an active D0 power state, causing the delay. To workaround this use a program to keep the connection active, such as [Sound Keeper](https://github.com/vrubleg/soundkeeper) or [SPDIF KA](https://github.com/handruin/spdif-ka) on Windows (or [these methods](https://destinmoulton.com/notes/howto/linux-usb-audio-keep-alive-service/) on Linux) which will play inaudible audio over the connection at all times.  
 
-## My sound system only supports decoding Dolby Digital, but I want to play content with varying formats. How to I re-encode it all to Dolby Digital?
+<!-- Sub-Section -->
+
+### My sound system only supports decoding Dolby Digital, but I want to play content with varying formats. How to I re-encode it all to Dolby Digital?
 
 See instructions below for setting this up in your media player software.
 
@@ -580,11 +591,11 @@ PLEX MEDIA PLAYER/PLEX HTPC:
 5. If Device is HDMI: Check box for "Passthrough: Dolby Digital (AC3)". Uncheck boxes for "Passthrough: <everything else>"  
 
 SYSTEM-WIDE: See the [section below](/htpc-wiki/audio#wiki_how_do_i_configure_my_htpc_to_output_sound_for_games_to_my_sound_system.3F) on encoding gaming audio, which does the same thing, but on a lower-level.  
-
 NON-REALTIME: [Handbrake](https://handbrake.fr/), [ffmpeg-gui](https://www.videohelp.com/software/clever-FFmpeg-GUI), [eac3to](https://www.videohelp.com/software/eac3to), [tdarr](https://tdarr.io/)  
 
+<!-- Sub-Section -->
 
-## How do I configure my HTPC to output sound for games to my sound system?
+### How do I configure my HTPC to output sound for games to my sound system?
 
 First, most games output audio in the **PCM 5.1** format. Not all audio interfaces and connection schemes support this bandwidth; those that don't will give you 2.0/Stereo instead.  
 
@@ -610,8 +621,9 @@ You can use a good HDMI 2.0 splitter to send 4k/60hz video to a display and HD a
 
 There are no perfect solutions for 4k/120Hz video. Either buy a new AVR and pass-through it or use eARC through your display. If your display supports eARC but your sound system doesn't, use an [eARC extractor](https://www.amazon.com/ViewHD-Adapter-Audio-Receiver-Application/dp/B08ZHCS5D9) between the display and sound system.  
 
+<!-- Sub-Section -->
 
-## Can I get HD audio from a non-HDMI connector?
+### Can I get HD audio from a non-HDMI connector?
 
 Yes.  
 
@@ -630,7 +642,9 @@ If you need to bitstream audio:
 
 See the [Video Cables/Adapters](/htpc-wiki/faq#wiki_video_cables.2Fadapters.3A) section of the Wiki FAQ for more recommendations.  
 
-## What kind of sound system should I get?
+<!-- Sub-Section -->
+
+### What kind of sound system should I get?
 
 If your stereo TV or PC speakers are not producing good enough audio for you here are some options for upgrades. Realize we're not sound experts and you'd do better on a more [expert-level sub-reddit](/r/hometheater). The Audio section of the [HTBuyingGuides FAQ](/r/HTBuyingGuides/comments/u7khtz/home_theater_101_the_new_frequently_asked/) is a good place to start before wading into asking questions.  
 We do have some Sound Bars listed below but please note these are for very specific use cases. Dollar for dollar, a Receiver and Speaker separates will be better. In cases of limited space, we would rather see you use a PASSIVE Speaker Bar with a Receiver, and you'll also see those options below.  
@@ -668,8 +682,9 @@ HTBuyingGuides' [Speaker recommendations](https://www.reddit.com/r/HTBuyingGuide
  / 
 [Subwoofer recommendations](https://www.reddit.com/r/HTBuyingGuides/search/?q=subwoofers&restrict_sr=1&sr_nsfw=)
 
+<!-- Sub-Section -->
 
-## Where do I find sample audio files to test?
+### Where do I find sample audio files to test?
 
 [Dolby Digital 5.1](https://www.demolandia.net/downloads.html?id=40997883)  
 
@@ -697,6 +712,7 @@ Dolby Atmos (DD+/Lossy): [5.1.2 trailer](https://download.dolby.com/us/en/test-t
 
 [FLAC 4.0/5.0/5.1/7.1](https://drive.google.com/file/d/1dWB93rzbd3tuHckQH8ZisnJd7NDgApoe/view)  
 
+<!-- Section -->
 
 ## Accessories
 
