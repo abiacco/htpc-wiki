@@ -33,7 +33,7 @@ What is NOT a HTPC: Playing media just on your laptop. Playing media at your des
 
 A HTPC whether it be a PC or media device, can act as a client, a server, both or standalone.  
 
-For instance, it can act standalone and play media from [internal storage](/r/htpc/wiki/nas) or [streaming services](/r/htpc/wiki/faq#wiki_can_i_use_my_htpc_for_streaming_from_services_such_as_netflix.2C_amazon.2C_hulu.2C_etc...3F) to a connected TV/sound system.  
+For instance, it can act standalone and play media from [internal storage](/r/htpc/wiki/storage) or [streaming services](/r/htpc/wiki/faq#wiki_can_i_use_my_htpc_for_streaming_from_services_such_as_netflix.2C_amazon.2C_hulu.2C_etc...3F) to a connected TV/sound system.  
 
 It can be a client connected to a TV/sound system and then [connect to a server](/r/htpc/wiki/faq#wiki_can_i_stream_from_another_computer_or_from_a_network_attached_storage_.28nas.29_device.3F) which provides it the media to play.  
 
@@ -44,7 +44,7 @@ other clients in the home](/r/htpc/wiki/faq#wiki_can_i_stream_from_another_compu
 
 You should first decide which of these roles you need based on your use-case, budget, and hardware available.  
 
-You should reference the [video](/r/htpc/wiki/video)/[audio](/r/htpc/wiki/audio)/[storage](/r/htpc/wiki/nas) sections of the wiki as a guide to overall concepts if you're not familiar with them while researching a solution.  
+You should reference the [video](/r/htpc/wiki/video)/[audio](/r/htpc/wiki/audio)/[storage](/r/htpc/wiki/storage) sections of the wiki as a guide to overall concepts if you're not familiar with them while researching a solution.  
 
 A simple setup may just have a standalone PC (pre-built or DiY) with the [appropriate software](/r/htpc/wiki/faq#wiki_what_software_will_i_need_and_how_do_i_set_it_up.3F) 
 or a [media device](/r/htpc/wiki/faq#wiki_can_i_use_a_pre-built_media_device_for_my_htpc.3F). Usually if streaming or a remote-based interface is a priority, then a media device is best, where a PC is better for more customization, 
@@ -93,7 +93,7 @@ Media Server (no/1080p transcoding): Used: [SFF/USFF PC - CPU >= i3-7100T, 4GB R
 
 Media Server (4k transcoding):  Used: [SFF/USFF PC - CPU >= i5-7500T, 8GB RAM, SSD](https://www.ebay.com/sch/i.html?_fsrp=1&rt=nc&_from=R40&_nkw=\(hp%2Cdell%2Clenovo\)+\(i5-7500%2Ci5-8400\)+\(sff%2Cdt%2Cmt%2Cusff%2Cmicro%2Ctiny%2Cmini\)+ssd&_sacat=179&LH_BIN=1&LH_TitleDesc=0&_sop=15&_udhi=175&LH_ItemCondition=2010%7C2020%7C3000) ($75) OR New: >= [N95/N100 Mini PC](https://www.amazon.com/Beelink-Desktop-Computer-Ethernet-Family-NAS/dp/B0BWDGVCV7) ($150)   
 
-Network Storage: [Storage Setup Guide](/r/htpc/wiki/nas)
+Network Storage: [Storage Setup Guide](/r/htpc/wiki/storage)
 
 Everything else: [Sample Builds/Pre-builts](/r/htpc/wiki/sample-builds)  
 
@@ -181,7 +181,7 @@ Cube|*ITX:* ASRock Deskmeet, Raijintek Metis, Silverstone SG13/SG05, Golden Fiel
 Long Cube|*ITX:* Sharkoon QB One, Fractal Design Core 500, **[Node 304](https://www.fractal-design.com/products/cases/node/node-304/black/)**, Coolermaster Elite 130, *uATX:* Silverstone SG02/SG11
 Short - media cabinet|*ITX/uATX/ATX:* [**Silverstone ML**/RVZ/GD](https://www.silverstonetek.com/en/product/computer-chassis/?filter=HTPC_Desktop,grandia,milo,RAVEN&sort=Newsest) series. *ITX:* [Node 202](https://www.fractal-design.com/products/cases/node/node-202/black/), [Fractal Ridge](https://www.fractal-design.com/products/cases/ridge), Raijintek Pan, Inwin [BP](https://www.in-win.com/en/computer-chassis/bp-series)/[BQ](https://www.in-win.com/en/computer-chassis/bq-series). *uATX:* Apex DM-387/MI-008, Inwin BL/CE (BL040/CE685), Antec VSK2000.
 Fanless|[HDPLEX](http://www.hdplex.com), [Streacom](http://www.streacom.com/products/), [Akasa Maxwell Pro, Euler M/S/T](https://www.akasa.com.tw/update.php?tpl=product/product.list.tpl&type=Fanless%20Chassis&type_sub=Fanless%20Mini%20ITX)
-NAS|[Wiki: DIY NAS Case List](/r/htpc/wiki/nas#wiki_diy_nas_case_list), Fractal **[Node 804](https://www.fractal-design.com/products/cases/node/node-804/Black/)**/Node 304/Define R5, Jonsbo N1/N2/N3, Silverstone CS380/DS380/GD07/GD08, iStarUSA S-35
+NAS|[Wiki: DIY NAS Case List](/r/htpc/wiki/storage#wiki_diy_nas_case_list), Fractal **[Node 804](https://www.fractal-design.com/products/cases/node/node-804/Black/)**/Node 304/Define R5, Jonsbo N1/N2/N3, Silverstone CS380/DS380/GD07/GD08, iStarUSA S-35
 Full dGPU (Sandwich)|**[Geeek G1/M5/A40/A50/A60](https://www.geeekstore.com/product-category/case/)**, Raijintek Ophion ALS, Nouvolo Steck, Lian Li A4, Fractal Terra, Sliger SM550, SGPC K49
 Full dGPU (Other)|[Silverstone GD (short), RVZ/ML07/ML08 (shorter), SG13 (cube)](https://www.silverstonetek.com/en/product/computer-chassis/?filter=Small_Form_Factor,HTPC_Desktop,grandia,RAVEN,sugo&sort=Newsest), [Jonsbo C6](https://www.newegg.com/p/2AM-006A-000C4)/C2, Node 202/304, Core 500 
 ATX mobo|**[Silverstone GD09 - 27L/$95](https://www.silverstonetek.com/en/product/info/computer-chassis/GD09/)**, [GD11 - 31L/$170](https://www.silverstonetek.com/en/product/info/computer-chassis/GD11/), [SSUPD Meshroom S - 15L/$160](https://www.ssupd.co/products/new-meshroom-s), [SFFTime P-ATX - 10L/$170](https://www.sfftime.com/p-atx), Sliger Cerberus X - 24L/$265, [HDPLEX H5 - 17L/$300](http://www.hdplex.com/hdplex-h5-fanless-computer-case.html), Thermaltake Core G3 - 23.6L/EoL
@@ -350,7 +350,7 @@ BRANDS/MODELS:
 Your OS should be stored on a SSD. Shoot for at least a 2.5" 250GB SATA drive. A SATA SSD will be 30-50x faster than a HDD at OS operations. A M.2 NVMe SSD with transfer rates of 1500 MB/s will be around 2x faster than a SATA SSD and is the best option, while reducing cable clutter in the process. A high-end M.2 NVMe SSD @ 3000 MB/s will be 5x faster than a SATA SSD, but does not make sense price-wise unless you have highly sequential read/write tasks (which shouldn't happen on an OS drive).  
 
 Your media content should be stored on HDDs. Internal drives for media are preferred, but external drives are also fine. 2.5" HDDs are ok for the smallest cases, but capacities are limited to 5 TB, so if you need larger, you'll have to go to 3.5". If using external drives, make sure power management features in your OS don't disconnect a USB drive after a certain period of time. 
-You can also buy external drives and "shuck" the drives out of them to use internally in your HTPC, which tends to be cheaper. Check the [Storage wiki page](/r/htpc/wiki/nas) page for prices/recs of internal/external drives.  
+You can also buy external drives and "shuck" the drives out of them to use internally in your HTPC, which tends to be cheaper. Check the [Storage wiki page](/r/htpc/wiki/storage) page for prices/recs of internal/external drives.  
 
 There are a very few cases where a SSD should be used for media or non-OS data: 
 
@@ -844,7 +844,7 @@ If you want to make virtual TV channels out of your own content, looks at [dizqu
 
 Figure out how many clients you will be serving to simultaneously and what types of clients (local or remote). Assume you will be transcoding content for at least 1/3 of the clients (unless you know otherwise). So, for example, if you determine you will have 3 simultaneous clients, assume 1 of them will be transcoding, so choose a server with hardware that can do at least 1 transcode.
 
-Look at the [Sample Builds](/r/htpc/wiki/sample-builds) page for pre-built and DiY media server solutions based on that. You can buy a very capable media server for under $200. Don't forget to take into account the amount of storage you need, which can be signifigant, whether it be [internal, external, or networked with a NAS](/r/htpc/wiki/nas). Ripped/Remux 1080p movies can reach 25GB in size EACH, with 4k ones up to 4x that.  
+Look at the [Sample Builds](/r/htpc/wiki/sample-builds) page for pre-built and DiY media server solutions based on that. You can buy a very capable media server for under $200. Don't forget to take into account the amount of storage you need, which can be signifigant, whether it be [internal, external, or networked with a NAS](/r/htpc/wiki/storage). Ripped/Remux 1080p movies can reach 25GB in size EACH, with 4k ones up to 4x that.  
 
 Once you have the hardware you need, connect the media server and/or NAS to your router over ethernet, attach and/or mount the internal/external storage to the server, install and configure media server software, then install the server's player software on your media client devices.  
 
@@ -856,7 +856,7 @@ If you don't want to use media serving softwares, or you don't need real time tr
 
 ## How do I add Network Attached Storage (NAS) to my network for my HTPC/media devices?
 
-[See our separate wiki page here](/r/htpc/wiki/nas)  
+[See our separate wiki page here](/r/htpc/wiki/storage)  
 
 ## What resolution and audio is supported on streaming service X?
 
