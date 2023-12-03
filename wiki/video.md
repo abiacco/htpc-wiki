@@ -106,7 +106,7 @@ HLG: Not common. No metadata. SDR & HDR in same signal. 1000 cd/m2 nominal. 10-b
 
 <!-- Sub-Section -->
 
-### Video Software
+### **Video Software**
 
 See also: [Audio Software](/htpc-wiki/audio#audio-software)  
 
@@ -395,7 +395,11 @@ If the media you're watching does not have a framerate that's a multiple of your
 
 <!-- Section -->
 
-## What are the best algorithms for scaling video?
+## Common Questions
+
+<!-- Sub-Section -->
+
+### What are the best algorithms for scaling video?
 
 Video scaling algorithms from Worst to Best (and generally least resource intensive to most) are:  
 
@@ -409,9 +413,9 @@ Any algo beyond **Jinc** will produce diminishing returns compared to the amount
 
 MPC VR will allow you to go up to Jinc. madVR to NGU Sharp.  
 
-<!-- Section -->
+<!-- Sub-Section -->
 
-## Why is my video playback stuttering and/or dropping frames?
+### Why is my video playback stuttering and/or dropping frames?
 
 1. You haven't configured your video player to use your GPU to hardware decode video. See application-specific setup above.
 2. Your GPU doesn't support hardware decoding for the video codecs you're trying to play and your CPU isn't powerful enough to software decode them. Determine what video codec you're attempting to decode (using something like [MediaInfo](https://mediaarea.net/en/MediaInfo)) and then see the GPU section of the wiki faq for what codecs are supported by your GPU. Buy a better [CPU](/htpc-wiki/faq#wiki_cpus.3A) or [GPU](/htpc-wiki/faq#wiki_gpus.2Fgraphics.3A).
@@ -426,9 +430,9 @@ MPC VR will allow you to go up to Jinc. madVR to NGU Sharp.
 11. Your video player isn't good/good at playing the video codec(s) you're trying to play. Try a different one (MPC-BE, MPC-HC, Kodi, VLC, Jriver, MPV)
 12. You're using an OLED TV, which can cause stutter due to the nature of the tech. Test with Motion Interpolation enabled on it. 
 
-<!-- Section -->
+<!-- Sub-Section -->
 
-## How do I fix judder on my htpc?
+### How do I fix judder on my htpc?
 
 First, make sure what you're experiencing is actually judder and not stutter. Watch [this](https://www.youtube.com/watch?v=CuEZIJDEQyo&t=1s) video.  
 
@@ -443,16 +447,16 @@ If you do have judder, then do one or more of the following..
 6. Use the [SVP (Smooth Video Project)](https://www.svp-team.com/) filter to up-convert the content's fps (e.g. 23.976 fps to 60 fps) before it gets to the display.  
 7. Use a media device instead that can do automatic Refresh Rate Switching. Fire TV (Prime Video), Nvidia Shield (Netflix, Prime Video) (beta), Android TV+[SmartTubeNext](https://github.com/yuliskov/SmartTubeNext) (Youtube)  
 
-<!-- Section -->
+<!-- Sub-Section -->
 
-## What refresh rate should I run on my HTPC?
+### What refresh rate should I run on my HTPC?
 
 Whatever refresh rate matches the framerate of the bulk of the content you play, if automatic Refresh Rate Switching is not available.  
 Content varies between 23.976, 24, 25 fps, 29.97 or 60 fps. Local content is usually 23.976 fps (23 Hz) in North America and 25 fps (25 Hz) in Europe. Youtube is 24/25/30/60 fps. Netflix is 23.976/24/25/29.97 fps.  
 
-<!-- Section -->
+<!-- Sub-Section -->
 
-## What is the best way to change DisplayPort/USB-C to HDMI. What are the limitations associated with doing this?
+### What is the best way to change DisplayPort/USB-C to HDMI. What are the limitations associated with doing this?
 
 There are 2 ways to change DisplayPort to HDMI. The 1st is a Passive cable/adapter, the 2nd is an Active cable/adapter.  
 
@@ -468,9 +472,9 @@ USB-C is just a different connector, still carrying the DisplayPort protocol as 
 
 When buying cables and adapters, please do NOT buy no-name brands. As quality control is low on them and marketing is more often than that mis-leading. Recommended cables and adapters can be found in the hardware section of the [Wiki FAQ](/htpc-wiki/faq). You can also find there what versions of DisplayPort and HDMI are supported on various CPUs/GPUs.  
 
-<!-- Section -->
+<!-- Sub-Section -->
 
-## What options are there for 4k @ 120 Hz video output?
+### What options are there for 4k @ 120 Hz video output?
 
 Keep in mind we assume a HDMI input will be on your Display (TVs/Projectors, which is our only concern here).  
 
@@ -489,15 +493,15 @@ Technically, straight HDMI is the best (#1/#2/#3) followed by Thunderbolt->HDMI 
 [USB-C->HDMI 2.1 Cable](https://www.amazon.com/Cable-Matters-48Gbps-Adapter-Supporting/dp/B08QDV5H4M). 
 7. DiY: Intel 12th+ Gen CPU and respective motherboard with a Displayport 1.4 connector and an Active DP->HDMI adapter. This tends to be the least stable option, so we don't recommend it at all. 
 
-<!-- Section -->
+<!-- Sub-Section -->
 
-## How do I configure my app/gpu/display for proper color reproduction?
+### How do I configure my app/gpu/display for proper color reproduction?
 
 See above sections [Setup For Color Conversion/Reproduction](/htpc-wiki/video#wiki_setup_for_color_conversion.2Freproduction) and [Video Calibration Testing](/htpc-wiki/video#wiki_video_calibration_testing)  
 
-<!-- Section -->
+<!-- Sub-Section -->
 
-## Where do I find additional sample video files to test?
+### Where do I find additional sample video files to test?
 
 [AVS HD 709 Test Patterns](https://www.avsforum.com/threads/avs-hd-709-blu-ray-mp4-calibration.948496/) - For video calibration  
 
@@ -528,3 +532,4 @@ See above sections [Setup For Color Conversion/Reproduction](/htpc-wiki/video#wi
 **HDMI Splitters**  
 
 4k@120Hz: [Monoprice Blackbird](https://www.monoprice.com/product?p_id=44436)
+
