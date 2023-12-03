@@ -1,8 +1,6 @@
 
 ---
 
-<!-- # Table of Contents -->
-
 # Overview
 
 Welcome to the [/r/htpc](https://www.reddit.com/r/htpc) sub-reddit's wiki page.
@@ -28,7 +26,7 @@ You can use this page to browse and search information relating to HTPCs.
 ## [VIDEO Setup Guide](/htpc-wiki/video)
 - How to configure, fix, and explanation of VIDEO between your HTPC and Display
 
-## [STORAGE Setup Guide](/htpc-wiki/nas)
+## [STORAGE Setup Guide](/htpc-wiki/storage)
 - Information on storage for your HTPC/media devices. Pre-built NASes, HDDs, SSDs, DIY NAS cases
 
 ## [Term Reference](/htpc-wiki/reference) 
@@ -42,3 +40,17 @@ You can use this page to browse and search information relating to HTPCs.
 
 ## [Verified HDMI 2.0/HDCP 2.2 motherboards](/htpc-wiki/hdmi20) 
 - A list of motherboards that have HDMI 2.0/HDCP 2.2 support
+
+<!-- OLD LINKS - to get google to index us instead of old reddit-based wiki -->
+<!-- /r/htpc/wiki -->
+<!-- /r/htpc/wiki/faq -->
+<!-- /r/htpc/wiki/sample-builds -->
+<!-- /r/htpc/wiki/hdr -->
+<!-- /r/htpc/wiki/audio -->
+<!-- /r/htpc/wiki/video -->
+<!-- /r/htpc/wiki/nas -->
+<!-- /r/htpc/wiki/reference -->
+<!-- /r/htpc/wiki/nuc -->
+<!-- /r/htpc/wiki/cpucoolers -->
+<!-- /r/htpc/wiki/hdmi20 -->
+
