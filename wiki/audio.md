@@ -143,7 +143,7 @@ Consult [this section](/htpc-wiki/faq#video-cablesadapters) of the wiki FAQ for 
 
 **Scenario #1** - The ideal scenario is to connect your HTPC to your sound system and then connect your sound system to your TV - [DIAGRAM](https://imgur.com/MWYvscz)  
 
-[[https://imgur.com/MWYvscz|DIAGRAM]]
+[[https://imgur.com/MWYvscz|alt=DIAGRAM]]
 
 In this scenario, the sound system gets the audio and video first and then passes the video through to the display, e.g. HTPC (HDMI) -> Sound System (HDMI) in -> Sound System (HDMI) out -> TV (HDMI).  
 When the sound system supports the required video resolution for passthrough to the display, this scenario is simple and provides the highest audio compatibility.  
