@@ -2,18 +2,18 @@
 
 *This page is best viewed with a PC web browser.*  
 
-&nbsp;
-
 **THIS PAGE IS IN A DRAFT STATE AND UNDER CONSTRUCTION**
 
-&nbsp;
+<!-- Section -->
 
 ## How do I configure my htpc/media device for video?
 
 Please read the Video Formats and Transports sections before you embark on the sections below it, so you understand the terms and concepts mentioned.  
 
 For simplicity, the term "HTPC" here can mean either a PC or a streaming device, like a Roku/Fire TV/etc, except where differences are noted.  
- 
+
+<!-- Sub-Section -->
+
 ### **Video Formats/Codecs**
 
 x264: Also known as h.264/MPEG-4 AVC. A very common lossy video compression codec. Used in Netflix, newer HD blu-ray discs and ATSC 1.0 OTA. Optimal for resolutions <= 1080p.  
@@ -23,6 +23,8 @@ VC-1: Used in newer HD blu-ray discs
 VP9: A compression codec used on Youtube  
 AV1: A modern, lossy compression codec currently with limited support. The successor to HEVC and VP9  
 MPEG-2: Also known as h.262/MPEG-2 Part 2. A low compression codec. Used in DVDs, old HD blu-ray discs and ATSC 1.0 OTA. Commonly used with the TS container
+
+<!-- Sub-Section -->
 
 ### **Video Containers**
 
@@ -35,6 +37,8 @@ TS: Also known as MPEG-TS. Used with MPEG-2 codec for tv broadcasts.
 M2TS: An extension of MPEG-TS. Used with old HD blu-ray discs and MPEG-2.  
 BDMV/BDAV: Used in HD/UHD blu-ray discs. BDMV has menu capability, BDAV does not and is a modified MPEG-2 TS container using x264, MPEG-2 or VC-1.  
 
+<!-- Sub-Section -->
+
 ### **Video bitrates**
 
 An aggregation of video content information encoded in a pixel over time. Usually referenced in Mbps.  
@@ -46,6 +50,8 @@ You can calculate video bitrate by applying the formula
  Resolution width * Resolution height * fps * bpp / 1000000 = Mbps  
  e.g. 1920 * 1080 * 23.976 * 0.1 / 1000000 = 5 Mbps  
 
+<!-- Sub-Section -->
+
 ### **Video Transports/Interfaces**
 
 HDMI 1.4: Digital. 10 Gbps. 4K @ 30 Hz  
@@ -54,6 +60,8 @@ HDMI 2.1: Digital. 48 Gbps. 4K @ 120 Hz. HDR+
 Displayport 1.2 (native): Digital. Displayport on both ends. 20 Gbps. 4K @ 60 Hz  
 Displayport 1.4 (native): Digital. Displayport on both ends. 32 Gbps. 4K @ 120 Hz. HDR  
 Displayport (Alternate mode): Digital. Displayport/USB->HDMI cable/adapter  
+
+<!-- Sub-Section -->
 
 ### **Video Metadata/Color Technologies**
 
@@ -83,7 +91,9 @@ HLG: Not common. No metadata. SDR & HDR in same signal. 1000 cd/m2 nominal. 10-b
  f. DVD/FHD Blu-Ray: 8-bit, Gamma, Rec.709->sRGB, None  
  g. UHD Blu-Ray: 10/12-bit, PQ, P3->Rec.2020, ST 2084/ST 2086/ST 2094  
  h. Online Streaming: 8/10/12-bit, Gamma->PQ, Rec.709->Rec.2020, None/ST 2084/ST 2086/ST 2094  
-  
+
+<!-- Sub-Section -->
+
 ### **Video Hardware**
 
 1. GPU
@@ -94,9 +104,11 @@ HLG: Not common. No metadata. SDR & HDR in same signal. 1000 cd/m2 nominal. 10-b
  - TV  
  - Projector  
 
+<!-- Sub-Section -->
+
 ### **Video Software**
 
-See also: [Audio Software](/htpc-wiki/audio#wiki-audio-software)  
+See also: [Audio Software](/htpc-wiki/audio#audio-software)  
 
 **Media Servers**
 
@@ -170,30 +182,31 @@ See also: [Audio Software](/htpc-wiki/audio#wiki-audio-software)
 7. Virtual CloneDrive 
   - Mount ISO files for disc playback support  
 
+<!-- Section -->
 
 ## Setup
 
 **Hardware Setup**  
 
-See the [AUDIO Setup Guide](/htpc-wiki/audio#wiki_setup) for different ways of connecting your HTPC to a display and sound system.  
+See the [AUDIO Setup Guide](/htpc-wiki/audio#setup) for different ways of connecting your HTPC to a display and sound system.  
 
 **Software/OS Setup**  
 
 Make sure the video driver for your GPU is installed, updated from the GPU vendor, and working.  
 
-Set up your app/gpu driver/tv settings for color reproduction. See [section below](/htpc-wiki/video#wiki_setup_for_color_reproduction).  
+Set up your app/gpu driver/tv settings for color reproduction. See [section below](/htpc-wiki/video#setup-for-color-reproduction).  
 
-Run video calibration tests to make sure the above setup is correct. See [section below](/htpc-wiki/video#wiki_video_calibration_testing).  
+Run video calibration tests to make sure the above setup is correct. See [section below](/htpc-wiki/video#video-calibration-testing).  
 
-Run motion calibration tests for judder/stutter. See [section below](/htpc-wiki/video#wiki_motion_calibration_testing).  
+Run motion calibration tests for judder/stutter. See [section below](/htpc-wiki/video#motion-calibration-testing).  
 
-Configure your video player application for hardware decoding. See [section below](/htpc-wiki/video#wiki_application-specific_setup_for_hardware_decoding).  
+Configure your video player application for hardware decoding. See [section below](/htpc-wiki/video#application-specific-setup-for-hardware-decoding).  
 
-OPTIONAL: Application-Specific Setup For Resolution/Refresh Rate Switching. See [section below](/htpc-wiki/video#wiki_application-specific_setup_for_resolution.2Frefresh_rate_switching).  
+OPTIONAL: Application-Specific Setup For Resolution/Refresh Rate Switching. See [section below](/htpc-wiki/video#application-specific-setup-for-resolution-refresh-rate-switching).  
 
-OPTIONAL: Application-Specific Setup For HDR/Scaling. See [section below](/htpc-wiki/video#wiki_application-specific_setup_for_hdr.2Fscaling).  
+OPTIONAL: Application-Specific Setup For HDR/Scaling. See [section below](/htpc-wiki/video#application-specific-setup-for-hdr-scaling).  
 
-&nbsp;
+<!-- Sub-Section -->
 
 ### **Setup For Color Reproduction**
 
@@ -236,7 +249,7 @@ To confuse things even more, sometimes Full and Limited are called by other name
 2. Change your GPU driver settings to a color space of RGB, a color depth of 8-bit, a resolution of what you want (1080p/2160p), and a refresh rate of 60 Hz (or 120 hz where available)  
 3. Change your video application's renderer to a Range of Full (0-255). This is the default for all renderers (madVR/MPC VR/EVR CP) unless otherwise changed. Change Bit depth to auto  
 
-&nbsp;
+<!-- Sub-Section -->
 
 ### **Video Calibration Testing**
 
@@ -245,19 +258,19 @@ As such, it is highly recommended to run video calibration tests before you play
 
 To do this, you should
  
-1. Set the proper color conversion/reproduction settings [from above](/htpc-wiki/video#wiki_setup_for_color_conversion.2Freproduction).  
+1. Set the proper color conversion/reproduction settings [from above](/htpc-wiki/video#setup-for-color-conversion-reproduction).  
 2. Calibrate your display in Windows. Start->Color Management->Advanced->Calibrate Display  
 3. **Disable** Hardware Decoding/Acceleration (DXVA, D3D11, NVDEC, pixel shaders etc..) in your video player application, where at all possible, to minimize the chance of the GPU decoder/renderer messing up colors, blacks and whites. You can re-enable it after you're done. The language is different depending on your media player. It should be set to Software/None/Acceleration disabled/etc.. as per the option locations in the below Decoding section.      
 4. Download calibration media like [AVS HD 709](https://www.avsforum.com/threads/avs-hd-709-blu-ray-mp4-calibration.948496/). Get the MP4 version. At the minimum, extract the tests from the 'Basic Settings' and 'Misc Patterns->A' folder.  
 5. Read the [AVS manual](https://www.w6rz.net/avshd709/Patterns-Manual.pdf) and then run the calibration tests in your video player application.  
 6. If everything looks good, enable Hardware Decoding/Acceleration in your media player as per the below section. If everything does NOT look good, you messed something up in #1/#2. Go back and re-check/re-try.  
 7. Re-run the AVS calibration tests.  
-8. If everything in the tests look good, start playing some test content. Start with known-good content, like the jellyfish and non-HDR real-world [files below](/htpc-wiki/video/#wiki_where_do_i_find_additional_sample_video_files_to_test.3F). Work your way up from lower resolutions and common codecs (h264) to the resolutions, codecs, and formats you want to use. For example, start with 1080p:h264:8-bit:SDR, then 1080p:HEVC:10-bit:SDR, then 4k:HEVC:8-bit:SDR. This tiered approach will help you find any potential problems along the way. If you're dropping frames from the content, experiencing stutter or judder, consult the appropriate sections below.  
+8. If everything in the tests look good, start playing some test content. Start with known-good content, like the jellyfish and non-HDR real-world [files below](/htpc-wiki/video/#where-do-i-find-additional-sample-video-files-to-test). Work your way up from lower resolutions and common codecs (h264) to the resolutions, codecs, and formats you want to use. For example, start with 1080p:h264:8-bit:SDR, then 1080p:HEVC:10-bit:SDR, then 4k:HEVC:8-bit:SDR. This tiered approach will help you find any potential problems along the way. If you're dropping frames from the content, experiencing stutter or judder, consult the appropriate sections below.  
 9. If everything in the tests look good, make any additional video setting changes you desire ([enabling HDR, changing renderers, upscaling](/htpc-wiki/hdr), etc..) and play the test content again. If you've enabled HDR, use the HDR test videos/patterns and the real-world files below for that.  
 10. If everything in the tests does NOT look good, either there's something messed up in your GPU color conversion/decoding, your display device is limiting you (e.g. HDR luminance/tonemapping), or your GPU/renderer is limiting you (e.g. aggressive post-processing). Check settings from #8, re-test, and/or seek help on the sub.  
 11. Move on to Motion Calibration Testing or start playing real content.  
 
-&nbsp;
+<!-- Sub-Section -->
 
 ### **Motion Calibration Testing**  
 
@@ -275,13 +288,13 @@ You will first run a test for the presence of motion problems like stutter. You 
 8. Test playing content and look for any observable judder. Here is test [24p content](https://www.youtube.com/watch?v=oy8wNzOGVmc)/[25p content](https://www.youtube.com/watch?v=Ou3QXsTro7A).  
 9. Judder will likely be present; what's important is how bad it is and if it's something that's too distracting that you can't ignore. If you can't ignore it, see the section "How do I fix judder on my htpc?" below and repeat the tests.  
 
-&nbsp;
+<!-- Sub-Section -->
 
 ### **Application-Specific Setup For Hardware Decoding**
 
 Most video players have hardware decoding support built-in.  
 
-Configuration usually involves a single toggle on the simple side, or, on the advanced side, choosing between DVXA/D3D11/Quicksync and/or choosing your proper GPU Device. Make sure your GPU Device supports hardware decoding for the format(s) you're trying to play. See the [GPU Feature Set Matrix](/htpc-wiki/faq/#wiki_graphics.2Fgpus.3A) of the FAQ.  
+Configuration usually involves a single toggle on the simple side, or, on the advanced side, choosing between DVXA/D3D11/Quicksync and/or choosing your proper GPU Device. Make sure your GPU Device supports hardware decoding for the format(s) you're trying to play. See the [GPU Feature Set Matrix](/htpc-wiki/faq/#graphics-gpus) of the FAQ.  
 
 If configured correctly, CPU Usage should be low during playback, while GPU Usage (Decode/3D) should be higher in proportion. If GPU Decode/3D is 0, then hardware decoding is not being used.
 
@@ -309,7 +322,7 @@ Kodi:
   
 Potplayer: TODO  
 
-&nbsp;
+<!-- Sub-Section -->
 
 ### **Application-Specific Setup For Resolution/Refresh Rate Switching**
 
@@ -374,12 +387,13 @@ If the media you're watching does not have a framerate that's a multiple of your
 
 4. Plex. See [here](https://support.plex.tv/articles/htpc-settings/)  
 
-
-&nbsp;
+<!-- Sub-Section -->
 
 ### **Application-Specific Setup For HDR/Scaling**
 
 [HDR Setup Guide](/htpc-wiki/hdr)  
+
+<!-- Section -->
 
 ## What are the best algorithms for scaling video?
 
@@ -394,6 +408,8 @@ These are OBJECTIVE rankings, and not SUBJECTIVE. Visual preferences are subject
 Any algo beyond **Jinc** will produce diminishing returns compared to the amount of load and noise it subjects your GPU to and may be detrimental to your HT listening environment.  
 
 MPC VR will allow you to go up to Jinc. madVR to NGU Sharp.  
+
+<!-- Section -->
 
 ## Why is my video playback stuttering and/or dropping frames?
 
@@ -410,6 +426,8 @@ MPC VR will allow you to go up to Jinc. madVR to NGU Sharp.
 11. Your video player isn't good/good at playing the video codec(s) you're trying to play. Try a different one (MPC-BE, MPC-HC, Kodi, VLC, Jriver, MPV)
 12. You're using an OLED TV, which can cause stutter due to the nature of the tech. Test with Motion Interpolation enabled on it. 
 
+<!-- Section -->
+
 ## How do I fix judder on my htpc?
 
 First, make sure what you're experiencing is actually judder and not stutter. Watch [this](https://www.youtube.com/watch?v=CuEZIJDEQyo&t=1s) video.  
@@ -425,10 +443,14 @@ If you do have judder, then do one or more of the following..
 6. Use the [SVP (Smooth Video Project)](https://www.svp-team.com/) filter to up-convert the content's fps (e.g. 23.976 fps to 60 fps) before it gets to the display.  
 7. Use a media device instead that can do automatic Refresh Rate Switching. Fire TV (Prime Video), Nvidia Shield (Netflix, Prime Video) (beta), Android TV+[SmartTubeNext](https://github.com/yuliskov/SmartTubeNext) (Youtube)  
 
+<!-- Section -->
+
 ## What refresh rate should I run on my HTPC?
 
 Whatever refresh rate matches the framerate of the bulk of the content you play, if automatic Refresh Rate Switching is not available.  
 Content varies between 23.976, 24, 25 fps, 29.97 or 60 fps. Local content is usually 23.976 fps (23 Hz) in North America and 25 fps (25 Hz) in Europe. Youtube is 24/25/30/60 fps. Netflix is 23.976/24/25/29.97 fps.  
+
+<!-- Section -->
 
 ## What is the best way to change DisplayPort/USB-C to HDMI. What are the limitations associated with doing this?
 
@@ -446,6 +468,7 @@ USB-C is just a different connector, still carrying the DisplayPort protocol as 
 
 When buying cables and adapters, please do NOT buy no-name brands. As quality control is low on them and marketing is more often than that mis-leading. Recommended cables and adapters can be found in the hardware section of the [Wiki FAQ](/htpc-wiki/faq). You can also find there what versions of DisplayPort and HDMI are supported on various CPUs/GPUs.  
 
+<!-- Section -->
 
 ## What options are there for 4k @ 120 Hz video output?
 
@@ -466,10 +489,13 @@ Technically, straight HDMI is the best (#1/#2/#3) followed by Thunderbolt->HDMI 
 [USB-C->HDMI 2.1 Cable](https://www.amazon.com/Cable-Matters-48Gbps-Adapter-Supporting/dp/B08QDV5H4M). 
 7. DiY: Intel 12th+ Gen CPU and respective motherboard with a Displayport 1.4 connector and an Active DP->HDMI adapter. This tends to be the least stable option, so we don't recommend it at all. 
 
+<!-- Section -->
 
 ## How do I configure my app/gpu/display for proper color reproduction?
 
 See above sections [Setup For Color Conversion/Reproduction](/htpc-wiki/video#wiki_setup_for_color_conversion.2Freproduction) and [Video Calibration Testing](/htpc-wiki/video#wiki_video_calibration_testing)  
+
+<!-- Section -->
 
 ## Where do I find additional sample video files to test?
 
@@ -489,6 +515,7 @@ See above sections [Setup For Color Conversion/Reproduction](/htpc-wiki/video#wi
 
 [Other Media Test Files](https://test-videos.co.uk/) - 360p/720p/1080p h264/HEVC/AV1/VP8/VP9  
 
+<!-- Section -->
 
 ## Accessories
 
