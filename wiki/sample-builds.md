@@ -20,7 +20,9 @@ The SBC options below will have the highest power efficiency, but also lowest co
 Choosing the least expensive option is attractive, but not always the best course of action. Be mindful of the added costs like storage, adapters, shipping. Other factors can include limitations like operating system support, warranty, QC and reliability.  
 Respected mfgrs are: intel, hp, dell, apple, lenovo, asus, asrock, simply nuc, zotac, shuttle.  
 
-**1080p PLAYERS**  
+<!-- Sub-Section -->
+
+### 1080p PLAYERS
 
 **TL;DR If you're just playing H264-encoded video, a small ARM-based SBC is fine. If you want HEVC or VP9 (youtube) decoding, then a used Intel 7th gen USFF/SFF/NUC off ebay for $75-125 if you're on a tight budget. For new, an Intel N95 based mini pc <= $125 with ram/disk.**  
 
@@ -34,7 +36,9 @@ Respected mfgrs are: intel, hp, dell, apple, lenovo, asus, asrock, simply nuc, z
 
  $150-200: SMALLEST: New Intel N5095/N5105 Nano PC ([GMK Nucbox](https://www.amazon.com/GMKtec-Nucbox5-Desktop-Computer-Windows/dp/B09Q8ZRTCX)/[Mele Quieter3Q](https://www.amazon.com/MeLE-Quieter3Q-Computer-Industrial-Astrophotography/dp/B09TGN1MWV)), 6-8GB RAM, 128GB-256GB disk  
 
-**4K HDR PLAYERS**  
+<!-- Sub-Section -->
+
+### 4K HDR PLAYERS
 
 **TL;DR If you're on a budget, then an Intel N95/N100 based mini pc for $140-$170 with ram/disk is fine. If you can afford it, look at a Beelink SEI 11/12 for $300 for better future-proofing (AV1).**  
 
