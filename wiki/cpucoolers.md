@@ -1,5 +1,4 @@
-
-**CPU COOLERS**  
+# CPU Coolers
 
 This table does not consider tower coolers or those over 100mm in height. It is sorted by nominal height. Categorized recommendations follow  
 
