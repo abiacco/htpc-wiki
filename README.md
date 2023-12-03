@@ -2,15 +2,13 @@
 
 <!-- # Table of Contents -->
 
-<!-- # Table of Contents -->
-
 # Overview
 
 Welcome to the /r/htpc Wiki
 
 # Content
 
-## [FAQ](/htpc-wiki/faq) 
+## [FAQ test](/htpc-wiki/faq) 
 - Information about getting help, building a HTPC, quick-fire RECs, components, client media devices, HTPC tech, common questions, etc..
 
 # [FAQ](/htpc-wiki/faq) 
