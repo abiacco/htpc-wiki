@@ -1,10 +1,10 @@
-# /r/htpc Wiki
+# Table of Contents
 
 ## [HTPC FAQ  - test link1](/r/htpc/wiki/faq) 
 ## [HTPC FAQ  - test link2](/faq) 
-## [HTPC FAQ  - test link3](/faq.MD) 
+## [HTPC FAQ  - test link3](/faq.md) 
 ## [HTPC FAQ  - test link4](/htpc-wiki/faq) 
-## [HTPC FAQ  - test link5](/htpc-wiki/faq.MD) 
+## [HTPC FAQ  - test link5](/htpc-wiki/faq.md) 
 
 ## [HTPC FAQ](/r/htpc/wiki/faq) 
 - Information about getting help, building a HTPC, quick-fire RECs, components, client media devices, HTPC tech, common questions, etc..
