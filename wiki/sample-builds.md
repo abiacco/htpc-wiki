@@ -14,8 +14,6 @@ For current deals/promotions on parts for your build, try [r/buildapcsales](http
 
 ## 1080p/4k HTPC Pre-builts/Mini-PCs
 
-&nbsp;
-
 The SBC options below will have the highest power efficiency, but also lowest comparative performance. Intel N/NUC CPUs (e.g. N5105/N95) have high efficiency. Intel T CPUs (e.g. i3-7100T) medium efficiency. Intel non-T/AMD CPUs, low efficiency.  
 Choosing the least expensive option is attractive, but not always the best course of action. Be mindful of the added costs like storage, adapters, shipping. Other factors can include limitations like operating system support, warranty, QC and reliability.  
 Respected mfgrs are: intel, hp, dell, apple, lenovo, asus, asrock, simply nuc, zotac, shuttle.  
@@ -271,8 +269,6 @@ You can add one or more 3.5" HDD content storage for an all-in-one.
 
 Tiny variation: 1.9L: $25 more. Change CASE & MOBO to a ASRock Deskmini X300W ($180) (mobo included), change MEM to [SO-DIMM](https://pcpartpicker.com/products/memory/#xcx=0&b=ddr4&ff=ddr4_sodimm&sort=price&Z=8192001,8192002)s. No 3.5" HDD content storage possible because of size, only [2.5" HDD](https://pcpartpicker.com/products/internal-hard-drive/#xcx=0&f=3&sort=ppgb&A=1900000000000,20000000000000&page=1).  
 
-&nbsp;
-
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
 CASE	|Apex Slim MicroATX DM-387 Case w/275W PSU		|$80	|[newegg](https://www.newegg.com/black-apex-dm-387-micro-atx-media-center-htpc-case/p/N82E16811154087)	|17.0" x 12.8" x 3.9"
@@ -295,8 +291,6 @@ Tiny variation: 1.9L: Change CASE & MOBO to a ASRock Deskmini B660W ($180) (mobo
 
 Larger Slim variation: 16L: Change CASE to Silverstone [ML03](https://pcpartpicker.com/product/bWR48d/silverstone-case-ml03b)/[ML04](https://pcpartpicker.com/product/fsw323/silverstone-case-ml04b). Add an [ATX PSU](https://pcpartpicker.com/products/power-supply/#sort=price&e=4,3,2,1&p=1,2&th=1).  
 
-&nbsp;
-
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
 CASE	|Apex Slim MicroATX DM-387 Case w/275W PSU			|	$80		|	[pcpartpicker](https://pcpartpicker.com/product/vDg323/apex-case-dm387)													|	ALT: ITX: Apex MI-008 Mini ITX w/250W PSU (9.6L) ($60)
@@ -317,8 +311,6 @@ it's too small for that. Look at the [HD Plex H3 (11L)](https://hdplex.com/hdple
 These cases are popular and low production, so don't be surprised if they're out of stock.  
 A comparable, similarly priced alternative is the [Streacom FC8 Alpha](https://www.quietpcusa.com/Streacom-HTPC-Cases/Streacom-FC8-ALPHA-HTPC-Chassis). The [DB1](https://www.quietpcusa.com/streacom-htpc-cases/streacom-1-fanless-chassis) is also an option and much cheaper than the others, though will limit you to 45W ECO mode on the CPU.  
 
-&nbsp;
-
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
 CASE	|	HD Plex H1 v3				|	$215	|	[HD Plex](https://hdplex.com/hdplex-h1-v3-fanless-computer-case.html)	|	no psu/backplate, 10.6" x 10.4" x 2.5"
@@ -336,8 +328,6 @@ TOTAL|						|	$655	|	|	|
 
 Low power, fanless CPU (6W), 4k@60Hz playback, 4k netflix/YT, HDR. Case specced can fit 1x3.5" HDD. This is for someone who wants a low power build with the flexibility to choose ram/ssd/HDD/PCIe vs a pre-built mini PC which does not afford that flexibility or expansion.  
 Upgrade to alternative mATX version of the build for up to 3x3.5 HDDs, though more than 2x HDDs are not recommended due to heat concerns and you lose fanless operations due to the Inwin case's internal PSU. If you really want fanless, you can do some hardware gymnastics with a Silverstone ML03 case, a SATA power splitter, a PCIE->SATA board and either a [Streacom Nano120 PSU Kit](https://shop.streacom.com/collections/pc-power-supplies/products/nano120?variant=40723339378897) or [Rgeek DC->ATX PSU](https://www.amazon.com/RGEEK-Switch-24pin-Supply-Computer/dp/B071P3HMNK)+[130W AC-DC Adapter](https://www.mini-box.com/130W-AC-DC-Power-Adapter), though this would not be recommended.  
-
-&nbsp;
 
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
@@ -362,8 +352,6 @@ We don't go beyond an entry-level GPU here for MadVR upscaling because we feel y
 If you want to do madVR tonemapping, change the GPU to a GTX 1660 and change the CASE to a Silverstone [GD-05 (21L)](https://www.silverstonetek.com/en/product/info/computer-chassis/GD05/) and add a [500W+ ATX PSU](https://pcpartpicker.com/products/power-supply/#xcx=0&th=1&sort=price&m=8,337,50,11,14,17,18,27,28,94,29,229,51,71,63,441,56). If you want to keep a slimmer profile, change the CASE to a Silverstone [ML07 (14L)](https://www.silverstonetek.com/en/product/info/computer-chassis/ML07/), the MOBO to an ITX one and add a [450W+ SFX PSU](https://pcpartpicker.com/products/power-supply/#xcx=0&th=5&sort=price&m=8,337,50,11,14,101,17,18,27,28,94,29,229,51,71,63,441,56&A=450000000000,2050000000000).  
 
 If you can't afford to do a new build, you can buy a [2nd-hand SFF pre-built](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=sff+%28i5-7400%2Ci5-7500%2Ci5-7600%2Ci5-8400%2Ci5-8500%2Ci5-8600%29+-optiplex+-prodesk&_sacat=0&LH_TitleDesc=0&_fsrp=1&_odkw=sff+%28i5-7400%2Ci5-7500%2Ci5-7600%29+-optiplex+-prodesk&_osacat=0&_sop=15) off ebay and pop the GTX 1650 low profile in it.  
-
-&nbsp;
 
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
@@ -393,8 +381,6 @@ Alternatively, on Windows look at [Staxrip](https://github.com/staxrip/staxrip) 
 
 If you can't afford to spend this much, buy a 2nd-hand pre-built and make some upgrades. Look at the "Medium NAS / Media Server (9-26L)" build below; they come with DVD drives standard. You can then upgrade to FHD/UHD ripping with a [LG BU40N](https://www.ebay.com/itm/332968508515?epid=21020020503&hash=item4d86783c63:g:DpkAAOSwF7lcHJ6b) FHD/UHD blu-ray drive, a [Slimline SATA Adapter](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=slimline+sata+to+sata+adapter+-usb+-nvme+-mount&_sacat=0&LH_TitleDesc=0&_odkw=slimline+sata+to+sata+adapter+-usb+-nvme&_osacat=0), and be out for $250.  
 
-&nbsp;
-
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
 CASE	|Fractal Design Core 500/1000				|$75	|	pcpartpicker	|	ALT: Silverstone ML03
@@ -407,8 +393,6 @@ COOL	|Thermalright Silver Soul 135 CPU Cooler				|$40	|	[pcpartpicker](https://p
 PSU		|EVGA GA 650W Fully Modular ATX PSU		|$60	|	pcpartpicker	|	ALT: Thermaltake Smart BM2 Semi 550W ($60)
 SOFTWARE	|MakeMKV Beta/Full		|FREE/$60	|	[makemkv](https://www.makemkv.com/buy/)	|Free with beta license key posted each month
 TOTAL	|										|$815	|					|
-
-&nbsp;
 
 <!-- Section -->
 
@@ -436,8 +420,6 @@ With a form factor this small you should use USB external drives, like a [WD Ele
 See our [Storage Setup Guide](/r/htpc/wiki/storage) for more information on software, drives and pre-built NASes.  
 
 Will handle 1080p video front-end duties fine.  
-
-&nbsp;
 
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
@@ -484,8 +466,6 @@ See our [Storage Setup Guide](/r/htpc/wiki/storage) for more information on soft
 
 You can also optionally use this as a HTPC client. Add a used low-profile GT 1030 for 4k@60 HDR content.  
 
-&nbsp;
-
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
 PC			|Lenovo M710S SFF PC					|$90		|	[Ebay](https://www.ebay.com/sch/i.html?_from=R40&_nkw=m710s%20%287400%2C7500%2C7600%2C7700%29&_sacat=171957&LH_TitleDesc=0&_sop=15&LH_PrefLoc=2&rt=nc&_udhi=250) | [specs](https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M710_SFF/ThinkCentre_M710_SFF_Spec.pdf). ALT: [HP/Dell](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=%28i5-7400%2Ci5-7500%2Ci5-7600%2Ci5-8400%2Ci5-8500%2Ci5-8600%29+%28hp%2Cdell%29+-micro&_sacat=179&LH_TitleDesc=0&_fsrp=1&rt=nc&LH_PrefLoc=2&Form%2520Factor=Small%2520Form%2520Factor%2520%2528SFF%2529%7CTower%7CMicro%2520Tower&_odkw=%28i5-7400%2Ci5-7500%2Ci5-7600%2Ci5-8400%2Ci5-8500%2Ci5-8600%29+%28hp%2Cdell%29&_osacat=179&LH_BIN=1&_dcat=179&_sop=15&_oaa=1&_udhi=250)
@@ -515,8 +495,6 @@ similarly performing White drives. It's market-dependent which way is cheaper at
 If you want to bulk up past 6 drives, look at the Coolermaster N400 or Node 804 case for up to 10 drives, with a uATX motherboard and the optional 9707-8i HBA in the parts list.  
 
 If used as a Plex server, you can [Direct Play](https://support.plex.tv/articles/200430303-streaming-overview/) a couple dozen stream and [transcode](https://support.plex.tv/articles/200430303-streaming-overview/) 6 concurrent 1080p streams with software transcoding. If you need more transcodes than that, do [hardware igpu transcoding](https://support.plex.tv/articles/115002178853-using-hardware-accelerated-streaming/) with a purchased Plex Pass and a linux docker/VM in Unraid. That'll get you 8x4k/17x1080p transcodes. Alternatively, if you didn't want to buy a Plex Pass, you could use an AMD Ryzen 5600/B550 mobo to get software transcoding for 10x1080p streams, but there's no video out on the CPU, so you'll need to add some sort of [cheap video card](https://www.ebay.com/sch/i.html?_from=R40&_nkw=radeon+4350&_sacat=0&_sop=15), at least for initial setup in Unraid, but can run it headless after that if you want.  
-
-&nbsp; 
 
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
@@ -574,8 +552,6 @@ On the chosen board we also have dual 2.5Gb Intel LAN.
 
 The PSU wattage may seem overkill, but we again plan for any upgrades, CPU, GPU, etc.. and remember that each HDD can pull 10W on spin-up.  
 
-&nbsp; 
-
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
 CASE		|	Fractal Design Meshify 2			|	$160	|	[pcpartpicker](https://pcpartpicker.com/product/jqTzK8/fractal-design-meshify-2-atx-mid-tower-case-fd-c-mes2a-02)	|[[specs](https://www.fractal-design.com/products/cases/meshify/meshify-2/black-tg-dark-tint/)]. ALT: Fractal Design Define 7 ($160)
@@ -617,8 +593,6 @@ If you can't find a HP Z220 CMT setup, you can alternatively go with a HP Z210 C
 
 See our [Network Storage Guide](/r/htpc/wiki/storage) for more information on software and drives.  
 
-&nbsp;
-
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
 PC			|HP Z220 CMT Workstation				|$125		|	[Ebay](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313&_nkw=HP+Z220+CMT&_sacat=0)	| ALT: HP Z210 CMT
@@ -631,8 +605,6 @@ SOFTWARE	|Unraid - 6 device license				|$60		|	[limetech](https://unraid.net/pri
 TOTAL		|										|$150		|	NA			|
 
 >!$300-$500: NEW, PRE-BUILT, MEDIA SERVER, INTERNAL 3.5" STORAGE: HP TP01,Dell 3891/3910,Intel 10th-12th gen,1xHDDs (official) 3xHDDs (un-official) w/sata power splitter+creative hdd mounting. [Ebay](https://www.ebay.com/sch/i.html?_fsrp=1&rt=nc&_from=R40&_nkw=\(hp%2Cdell\)+\(tp01%2C3891%2C3910\)+\(i3%2Ci5%2Ci7\)&_sacat=179&LH_BIN=1&LH_TitleDesc=0&_sop=15&LH_PrefLoc=2&LH_ItemCondition=1500%7C1000)!<  
-
-&nbsp;
 
 <!-- Section -->
 
@@ -651,8 +623,6 @@ Make sure to get one with 2x4GB sticks of RAM, not a single stick.
 For your frontend, Batocera (linux) and LaunchBox/BigBox (windows) are good choices. Solus is good if you want a fully fledged linux interface.  
 
 Will handle 1080p video duties fine
-
-&nbsp;
 
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
@@ -679,8 +649,6 @@ For an even smaller box, you could go with the Asrock Deskmini A300W/X300W case 
 
 If you don't want to build, you can find [SFF/USFF pre-builts on Ebay with the Ryzen 2400G/3400G](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=%283400ge%2C2400ge%2C2400g%2C3400g%29&_sacat=179&LH_TitleDesc=0&_odkw=%283400ge%2C2400ge%29&_osacat=179&LH_BIN=1&_sop=15&_udhi=150%29+%28%24100%29+OR+%3E%3D+%5BJ4125+Mini+PC%5D%28https%3A%2F%2Fwww.amazon.com%2FNucBox-Windows-Computer-Intel-J4125%2Fdp%2FB092JFVX2Z) for around $200, sometimes cheaper.  
 
-&nbsp;
-
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
 CASE	|Apex Slim DM-387 MicroATX case w/275W PSU			|$75		|[newegg](https://www.newegg.com/black-apex-dm-387-micro-atx-media-center-htpc-case/p/N82E16811154087)	|ALT: [InWin BL040](https://www.amazon.com/InWin-BL040-mATX-Desktop-Black/dp/B0964K2W4R) (13.9L) ($95), [Silverstone ML03b](https://pcpartpicker.com/product/bWR48d/silverstone-case-ml03b) (15.7L) ($95)/[Jonsbo C6](https://www.newegg.com/p/2AM-006A-000C4) (15.8L) ($60)
@@ -705,8 +673,6 @@ For an even smaller box, you could go with the Asrock Deskmini A300W/X300W at 1.
 
 For a fanless build, with same perf., for $250 more, see build in HTPC section above
 
-&nbsp;
-
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
 CASE			|Inwin Chopin										|$95		|[pcpartpicker](https://pcpartpicker.com/product/7zfmP6/inwin-case-bq696blk)		|8.6"x9.6"x3.3" ALT: Deskmini A300W/X300W ($170) (1.9L)
@@ -726,8 +692,6 @@ You should be able to play 60+ fps for most everything
 Will handle 4k video duties just fine.  
 
 For a SFF case, see the VR builds  
-
-&nbsp;
 
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
@@ -750,8 +714,6 @@ Will handle 4k video duties just fine.
 
 For a SFF case, see the VR Box builds  
 
-&nbsp;
-
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
 CASE|Fractal Design Node 304|$100|[newegg](https://www.newegg.com/black-fractal-design-node-304-mini-itx-tower/p/N82E16811352027)|ITX, 14.7"x9.8"x8.3" ALT: Thermaltake Core V1 ($51)
@@ -763,8 +725,6 @@ STORAGE		|WD Black SN770 1TB NVMe M.2 SSD TLC			|$60	|		|
 COOL		|Noctua NH-U12S Redux CPU Cooler					|$50		|[pcpartpicker](https://pcpartpicker.com/product/vV7G3C/noctua-nh-u12s-redux-7075-cfm-cpu-cooler-nh-u12s-redux)		|ALT: [Thermalright Silver Soul 135](https://pcpartpicker.com/product/c3pzK8/thermalright-silver-soul-135-82-cfm-cpu-cooler-ss135) ($40)
 PSU			|EVGA G5 Full-Modular 650W ATX			|$80	|[pcpartpicker](https://pcpartpicker.com/products/power-supply/#xcx=0&sort=price&th=1&e=6,5,4,3,2,1&p=1,2)		|ALT: Corsair CX650M ($90)
 TOTAL		|											|$790	|		|
-
-&nbsp;
 
 <!-- Section -->
 
@@ -781,8 +741,6 @@ Make sure you pick a GPU with a 6-pin (not 8) power connector and a PC with 2 sa
 The Dell 7040/7050/3620 or Lenovo M900 is good for the i7-6700. You can usually find one with an M.2 SSD so you don't have to purchase one separately.  
 Manjaro linux that we use here is fine for Steam and comes pre-installed with it. Simply download the Manjaro KDE Plasma iso, write it to the USB key with Etcher, boot from it and install to the SSD. You can then Enable Proton (experimental version) in Steam preferences.  
 Alternatively, you can run Windows if you want, and you have an activation key.  
-
-&nbsp;
 
 PART			|BRAND/MODEL												|	PRICE	|	VENDOR	|	NOTES
 :--|:--|:--|:--|:--
@@ -804,8 +762,6 @@ TOTAL			|															|	$217	|			|
 This is a straight up gaming build for 1440p with High settings, averaging about 90-100 fps which is good for a 120 Hz TV.  
 It's low profile so is good for a media cabinet. If you can handle more height or want to beef up, look at the ALT: notes. 
 
-&nbsp;
-
 PART			|BRAND/MODEL			|	PRICE	|	VENDOR	|	NOTES
 :--|:--|:--|:--|:--
 CASE	|	Silverstone Milo Z/ML-07		|	$90	|pcpartpicker	|15" (W)x4.1" (H)x13.8" (D). ALT: Silverstone GD-11 (6.9" (H), 30L)
@@ -818,8 +774,6 @@ STORAGE	|	Solidigm P41 Plus 2TB M.2 (GAMES)	|	$80	|pcpartpicker	|
 PSU	|	Phanteks Revolt 650W SFX		|	$90	|pcpartpicker	|ALT: Corsair RM650x (2021) ATX
 COOL	|	Thermalright AXP120-X67	CPU Cooler	|	$40	|pcpartpicker	|ALT: Thermalright Silver Soul 135 (Air) / Arctic Liquid Freezer II 240 (AIO)
 TOTAL	|						|	$1035	|	
-
-&nbsp;
 
 <!-- Section -->
 
@@ -840,8 +794,6 @@ You can however go with the thicker H80i AIO if you want to beef up your CPU coo
 For CPU/MOBO you can replace AMD Ryzen with Intel i5-12400F/B660, if availability is a problem  
 
 We chose a pretty small GPU here, but you can just as easily choose one all the way up to 270mm in length, but still dual-slot. The Radeon RX 6600/RTX 2060 is good for 1080p VR, but expect to jump to the RX 6650 XT/RTX 2060 Super or higher for 1440p.  
-
-&nbsp; 
 
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
@@ -866,8 +818,6 @@ This changes the CPU cooler, PSU and fan compatibility. We can also use a longer
 For CPU/MOBO you can replace AMD with Intel i5-12400F/B660, if availability is a problem  
 
 The Radeon RX 6600/RTX 2060 is good for 1080p VR, but expect to jump to the RX 6650 XT/RTX 2060 Super or higher for 1440p.  
-
-&nbsp; 
 
 PART|BRAND/MODEL|PRICE|VENDOR|NOTES
 :--|:--|:--|:--|:--
