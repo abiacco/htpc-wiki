@@ -1,17 +1,18 @@
-# ![/r/htpc](https://www.reddit.com/r/htpc) Wiki
+---
 
 <!-- # Table of Contents -->
 
 # Overview
 
-Welcome to the /r/htpc Wiki
+Welcome to the [/r/htpc](https://www.reddit.com/r/htpc) sub-reddit's wiki page.
+
+You can use this page to browse and search information relating to HTPCs.
+
+<a href="mailto:htpc-wiki@biacciconsulting.com">Contact Us</a> with any corrections or suggested content.
 
 # Content
 
-## [FAQ test](/htpc-wiki/faq) 
-- Information about getting help, building a HTPC, quick-fire RECs, components, client media devices, HTPC tech, common questions, etc..
-
-# [FAQ](/htpc-wiki/faq) 
+## [FAQ](/htpc-wiki/faq) 
 - Information about getting help, building a HTPC, quick-fire RECs, components, client media devices, HTPC tech, common questions, etc..
 
 # [Sample Pre-Built / DiY Builds](/htpc-wiki/sample-builds) 
