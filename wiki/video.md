@@ -202,9 +202,9 @@ Run motion calibration tests for judder/stutter. See [section below](/htpc-wiki/
 
 Configure your video player application for hardware decoding. See [section below](/htpc-wiki/video#application-specific-setup-for-hardware-decoding).  
 
-OPTIONAL: Application-Specific Setup For Resolution/Refresh Rate Switching. See [section below](/htpc-wiki/video#application-specific-setup-for-resolution-refresh-rate-switching).  
+OPTIONAL: Application-Specific Setup For Resolution/Refresh Rate Switching. See [section below](/htpc-wiki/video#application-specific-setup-for-resolutionrefresh-rate-switching).  
 
-OPTIONAL: Application-Specific Setup For HDR/Scaling. See [section below](/htpc-wiki/video#application-specific-setup-for-hdr-scaling).  
+OPTIONAL: Application-Specific Setup For HDR/Scaling. See [section below](/htpc-wiki/video#application-specific-setup-for-hdrscaling).  
 
 <!-- Sub-Section -->
 
