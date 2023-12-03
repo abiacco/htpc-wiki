@@ -106,7 +106,7 @@ HLG: Not common. No metadata. SDR & HDR in same signal. 1000 cd/m2 nominal. 10-b
 
 <!-- Sub-Section -->
 
-### **Video Software**
+### Video Software
 
 See also: [Audio Software](/htpc-wiki/audio#audio-software)  
 
