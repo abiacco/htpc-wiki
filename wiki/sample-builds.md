@@ -8,7 +8,7 @@ You can use [PCPartPicker](http://www.pcpartpicker.com/) to help you select part
 
 For current deals/promotions on parts for your build, try [r/buildapcsales](https://www.reddit.com/r/buildapcsales).  
 
-### 1080p/4k HTPC Pre-builts/Mini-PCs ###
+### 1080p/4k HTPC Pre-builts/Mini-PCs
 
 The SBC options below will have the highest power efficiency, but also lowest comparative performance. Intel N/NUC CPUs (e.g. N5105/N95) have high efficiency. Intel T CPUs (e.g. i3-7100T) medium efficiency. Intel non-T/AMD CPUs, low efficiency.  
 Choosing the least expensive option is attractive, but not always the best course of action. Be mindful of the added costs like storage, adapters, shipping. Other factors can include limitations like operating system support, warranty, QC and reliability.  
@@ -103,7 +103,7 @@ See [ETA PRIME](https://www.youtube.com/@ETAPRIME) youtube channel for reviews
 
 &nbsp;
 
-### 1080p/4k HTPC DIY builds ###
+### 1080p/4k HTPC DIY builds
 
 &nbsp;
 
