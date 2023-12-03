@@ -1,4 +1,4 @@
-# AUDIO SETUP GUIDE
+# Audio Setup Guide
 
 **This page is best viewed with a PC web browser.**  
 
