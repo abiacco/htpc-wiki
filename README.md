@@ -7,7 +7,7 @@ Welcome to the [/r/htpc](https://www.reddit.com/r/htpc) sub-reddit's wiki page.
 
 You can use this page to browse and search information relating to HTPCs.
 
-Contact Us with any text corrections, broken links or suggested content via [Reddit](https://www.reddit.com/message/compose?to=/r/htpc) or via <a href="mailto:htpc-wiki@biacciconsulting.com">E-mail</a>.
+Contact us with any text corrections, broken links or suggested content via [Reddit](https://www.reddit.com/message/compose?to=/r/htpc) or via <a href="mailto:htpc-wiki@biacciconsulting.com">E-mail</a>.
 
 ## Content
 
