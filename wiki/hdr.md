@@ -1,3 +1,5 @@
+# HDR Setup Guide
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--
 <style>
@@ -6,8 +8,6 @@
     }
 </style>
 -->
-
-# HDR Setup Guide
 
 This setup guide is only for HDR10 passthrough. High-end tonemapping is not discussed here. Dolby Vision/HDR10**+** is not discussed here as **no passthrough options exist** on PC. Read our [HDR section](/htpc-wiki/faq#wiki_what_is_hdr_video_and_what_do_i_need_to_take_advantage_of_it.3F) in the Wiki FAQ for detailed information and requirements.  
 We assume your display, video chain and media player have already been configured/calibrated properly for non-HDR content before you venture into the HDR setup below. If not, you are urged to follow the setup sections in the [Video Setup](/htpc-wiki/video#wiki_setup) wiki page first.  
