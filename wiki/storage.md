@@ -99,13 +99,6 @@ If you can't afford any of these and want to do it more cheaply, you can use/buy
 
   - Put it in AP mode on wired ethernet and [share the disk with samba](https://www.net-usb.com/share-hard-drive-over-network/#usb). Not advised for very large or non-powered drives. Get a SBC instead.  
 
-<!-- Sub-Section -->
-
-### How do I share HTPC storage on my network?
-
-If your storage is on a linux-based OS, [follow these instructions](https://www.linuxbabe.com/ubuntu/install-samba-server-file-share) to use Samba  
-If your storage is on a windows-based OS, [follow these instructions](https://support.microsoft.com/en-us/windows/file-sharing-over-a-network-in-windows-b58704b2-f53a-4b82-7bc1-80f9994725bf) to use Windows file sharing
-
 <!-- Section -->
 
 ## Hardware
@@ -336,7 +329,7 @@ Coolermaster NR600P		|6+2		|12		|Disc		|8.66 x 19.92 x 19.41		|YES		|54.9	|EATX/
 
 Disc = Discontinued  
 
-&nbsp;
+<!-- Section -->
 
 ## Software
 
@@ -355,3 +348,14 @@ Disk mgmt (linux): smartctl, [hd-idle](http://hd-idle.sourceforge.net/)
 Benchmark (windows): [CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/), [hdtune](https://www.hdtune.com/)  
 
 Benchmark (linux): dd, hdparm  
+
+<!-- Section -->
+
+## Common Questions
+
+<!-- Sub-Section -->
+
+### How do I share HTPC storage on my network?
+
+If your storage is on a linux-based OS, [follow these instructions](https://www.linuxbabe.com/ubuntu/install-samba-server-file-share) to use Samba  
+If your storage is on a windows-based OS, [follow these instructions](https://support.microsoft.com/en-us/windows/file-sharing-over-a-network-in-windows-b58704b2-f53a-4b82-7bc1-80f9994725bf) to use Windows file sharing
