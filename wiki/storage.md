@@ -1,5 +1,14 @@
 # Storage Setup Guide
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+<style>
+    table {
+        width: 100%;
+    }
+</style>
+-->
+
 ## General
 
 Spinning hard drives should be kept between 25C and 40C and temperature swings should be avoided where at all possible. Drives failure rates increase with heat, so do not pack more drives in a PC than you can effectively cool. SSDs should be kept below 70C to avoid performance throttling.  
