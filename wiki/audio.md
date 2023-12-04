@@ -143,7 +143,7 @@ Consult [this section](/htpc-wiki/faq#video-cablesadapters) of the wiki FAQ for 
 
 **Scenario #1** - The ideal scenario is to connect your HTPC to your sound system and then connect your sound system to your TV
 
-<img src="https://i.imgur.com/MWYvscz.png" width="525" height="275" alt="DIAGRAM"></img>
+<img src="https://i.imgur.com/MWYvscz.png" width="550" height="300" alt="DIAGRAM">
 
 <!-- ![DIAGRAM](/assets/images/audio-diagram-1.png) -->
 
@@ -160,7 +160,7 @@ Where this doesn't work is when the sound system:
 
 **Scenario #2** - Your display has a HDMI (e)ARC or Optical port
 
-<img src="https://i.imgur.com/3HpEIni.png" width="525" height="275" alt="DIAGRAM"></img>
+<img src="https://i.imgur.com/3HpEIni.png" width="550" height="300" alt="DIAGRAM">
 
 This will send audio through your display. This is common for VRR (gsync/freesync) gaming setups and/or where the desired resolution/refresh rate to the display exceeds what the sound system can pass through.  
 
@@ -174,7 +174,7 @@ This will send audio through your display. This is common for VRR (gsync/freesyn
 
 **Scenario #3** - Your display does not have HDMI (e)ARC/optical ports but your HTPC does have multiple display outputs (hdmi/displayport/usb-c display out)
 
-<img src="https://i.imgur.com/mrtX8DH.png" width="525" height="275" alt="DIAGRAM"></img>
+<img src="https://i.imgur.com/mrtX8DH.png" width="550" height="300" alt="DIAGRAM">
 
 This will give you a primary display for video output and a secondary, cloned display for audio-only output. This is common for VRR (gsync/freesync) gaming setups and/or where the resolution/refresh rate to the display exceeds what the sound system can pass through. If a secondary display is not desirable, see Scenario #4.  
 
@@ -189,7 +189,7 @@ This will give you a primary display for video output and a secondary, cloned di
 
 **Scenario #4** - Your HTPC does/does not have multiple display outputs (either hdmi or displayport), you want full audio support, but you don't want to set up a cloned or extended display in windows for separate video/audio
 
-<img src="https://i.imgur.com/f2qsP4W.png" width="525" height="275" alt="DIAGRAM"></img>
+<img src="https://i.imgur.com/f2qsP4W.png" width="550" height="300" alt="DIAGRAM">
 
 This is an alternative to Scenario #3 where you don't want to deal with multiple displays in windows either out of navigational annoyance, visual annoyance, or performance hit due to driving multiple display outputs. It could also be used with a single display output (e.g. APU) where you want full audio support but don't have eARC.  
 
@@ -208,7 +208,7 @@ You will use an HDMI splitter to split/clone the source signal and send the same
 
 **Scenario #5** - Your HTPC does NOT have multiple display outputs, but does have an Optical/S/PDIF/3.5mm ports
 
-<img src="https://i.imgur.com/dnBBvX3.png" width="525" height="275" alt="DIAGRAM"></img>
+<img src="https://i.imgur.com/dnBBvX3.png" width="550" height="300" alt="DIAGRAM">
 
 In this scenario you will likely be bitstreaming through Optical, or in the case of 3.5mm jacks, decoding audio on the HTPC  
 
@@ -221,7 +221,7 @@ In this scenario you will likely be bitstreaming through Optical, or in the case
 
 **Scenario #6** - Your HTPC does NOT have multiple display outputs, does not have an Optical/SPDIF port, and your display does not have a HDMI ARC or Optical port
 
-<img src="https://i.imgur.com/vpUWS5B.png" width="525" height="275" alt="DIAGRAM"></img>
+<img src="https://i.imgur.com/vpUWS5B.png" width="550" height="300" alt="DIAGRAM">
 
 1. Connect the HTPC's HDMI output to a [HDMI Audio Extractor](https://www.amazon.com/OREI-HDA-912-Audio-Converter-Extractor/dp/B07BHYXVTY)'s HDMI input, i.e. HTPC (HDMI) -> Audio Extractor (HDMI).  
 2. Connect the HDMI Audio Extractor's HDMI output to the display's HDMI input, i.e. Audio Extractor (HDMI) -> TV (HDMI).  
@@ -235,7 +235,7 @@ In this scenario you will likely be bitstreaming through Optical, or in the case
 
 **Scenario #7** - Your HTPC does have multiple display outputs (either hdmi or displayport) but your sound system does NOT have a HDMI port
 
-<img src="https://i.imgur.com/jl7rIf7.png" width="525" height="275" alt="DIAGRAM"></img>
+<img src="https://i.imgur.com/jl7rIf7.png" width="550" height="300" alt="DIAGRAM">
 
 1. Connect the HTPC's primary HDMI output to the display's HDMI input, i.e. HTPC (HDMI) -> TV (HDMI).  
 2. Connect the HTPC's 2nd display output (either from motherboard or dGPU) to a [HDMI Audio Extractor](https://www.amazon.com/OREI-HDA-912-Audio-Converter-Extractor/dp/B07BHYXVTY)'s HDMI input. If Displayport, use a PASSIVE Displayport->HDMI cable or adapter. e.g. HTPC (HDMI/Displayport) -> Audio Extractor (HDMI).  
