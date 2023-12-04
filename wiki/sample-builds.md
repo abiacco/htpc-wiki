@@ -1,5 +1,14 @@
 # Sample Pre-Built / DiY Builds
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+<style>
+    table {
+        width: 100%;
+    }
+</style>
+-->
+
 Here you'll find some pre-builts/mini-pcs and some sample DIY PC builds for HT, Emulation, Media Server and NAS purposes in their relevant sections. Before going through this page, look at the common scenarios in the [I want a HTPC/media device recommendation, but don't want to get into the complicated details](/htpc-wiki/faq#wiki_i_want_a_htpc.2Fmedia_device_recommendation.2C_but_don.27t_want_to_get_into_the_complicated_details) section of the FAQ. You may find your specific scenario there and a device to match before you go down this rabbit hole. If what you want is not there, then read on here.  
 
 Keep in mind, these are meant as examples for certain usage scenarios, even though they are real builds. You can add/subtract/replace certain components (such as storage) to match your specific budget or requirements, but they should be a good starting point. If you're un-sure, post and ask us.  
