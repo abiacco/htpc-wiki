@@ -9,6 +9,8 @@
 </style>
 -->
 
+<!-- Section -->
+
 ## General
 
 Spinning hard drives should be kept between 25C and 40C and temperature swings should be avoided where at all possible. Drives failure rates increase with heat, so do not pack more drives in a PC than you can effectively cool. SSDs should be kept below 70C to avoid performance throttling.  
@@ -18,6 +20,8 @@ If quick, no-delay access is required, APM/power management should be disabled s
 Hard drive noise varies by vendor. Newer, helium-filled drives tend to be quieter than air-filled drives.
 
 Recommended drives and related prices are given in the Hardware section below.  
+
+<!-- Section -->
 
 ## Reliability
 
@@ -31,16 +35,22 @@ From Most reliable to Least reliable:
 - External Storage (USB/DAS)
 - Network Storage (Wifi)
 
+<!-- Section -->
+
 ## Internal Storage
 
 Large internal media storage usually consists of 3.5" HDD SATA drives, but also can be 2.5" SATA HDD drives if physical space is at a premium and <= 5TB of disk space is required. Markers of quality and general longevity are warranty, workload (TB/Yr), and M.T.B.F numbers.  
 SSDs are good for smaller app, metadata and cache storage as they have more read/write performance and are quieter than HDDs. The value is not quite there for mass storage, so avoid for that use. 2.5" SATA SSD drives are good value for ephemeral space that doesn't need the best performance, while M.2 drives are better for higher IO performance and endurance.  
+
+<!-- Section -->
 
 ## External Storage
 
 External media storage can come in the format of USB drives or USB/Thunderbolt Direct Attached Storage enclosures (DAS). Drives in a DAS can act as individual drives or as one drive, depending on the DAS. Anything attached by USB is at risk of being disconnected at random, so internal or network storage is preferred to external, where at all possible.
 
 Recommended DASes are given in the Hardware section below.
+
+<!-- Section -->
 
 ## Network Storage
 
@@ -67,7 +77,7 @@ If you want the best plex transcoding ability..
 **DiY**  
 
 If you want more CPU performance or more flexibility/expandability than any reasonably priced pre-built NAS can offer, build out your own DiY NAS with Unraid/TrueNAS/OMV and commodity hardware.  
-Reference the DiY case/drive lists below, and the example builds under the [Wiki Sample Builds](/htpc-wiki/sample-builds#wiki_nas.2Fmedia_server_builds) page for full-part builds that range from used OEM pre-builts to ultimate DiY  
+Reference the DiY case/drive lists below, and the example builds under the [Wiki Sample Builds](/htpc-wiki/sample-builds#nasmedia-server-builds) page for full-part builds that range from used OEM pre-builts to ultimate DiY  
 
 **If you want to skirt the line between a pre-built NAS and DiY, look at the following, these provide more CPU/GPU performance than a pre-built NAS for 2 drives, but give you more OS support with Windows, Linux or Unraid/TrueNAS/OMV compatibility and DiY-like flexibility:  
 - Intel-based [Seeed Studio reServer (2 drives)](https://www.seeedstudio.com/reThings-reServer-c-2006.html)  
@@ -89,7 +99,7 @@ If you can't afford any of these and want to do it more cheaply, you can use/buy
 
   - Put it in AP mode on wired ethernet and [share the disk with samba](https://www.net-usb.com/share-hard-drive-over-network/#usb). Not advised for very large or non-powered drives. Get a SBC instead.  
 
-&nbsp;
+<!-- Section -->
 
 ## Hardware
  
@@ -153,7 +163,7 @@ Transcoding = Plex transcoding ability, referenced in [plex's transcoding spread
 (3) HW Transcoding: 2x 1080p. SW Transcoding: 2x 720p  
 (4) HW Transcoding: 1x 1080p. SW Transcoding: 1x 720p  
 
-&nbsp;
+<!-- Sub-Section -->
 
 ### Direct Attach Storage (DAS) List
 
@@ -170,7 +180,7 @@ QNAP		|	TR-004-US		|	4	|	$200	| HW RAID 0/1/10/5, JBOD, Single
 PC Pitstop          |       [Various](https://www.pc-pitstop.com/sas-sata-enclosures-no-expander)   |    4-24    |  $270-1400   |  w/LSI 9207-4i4e Host PC PCIe card
 Various              |       Various                     |       4      |       $110 | [PCIe SATA card](https://www.amazon.com/10Gtek-Profile-Bracket-Controller-Expansion/dp/B09Y1NRHX3)+[HDD Cage](https://www.amazon.com/Rosewill-5-25-Inch-3-5-Inch-Hot-swap-SATAIII/dp/B00DGZ42SM)+[Molex PSU](https://www.quietpcusa.com/Power-Supply/Power-Adapters-Converters-ACDC/Power-Adapter-110VAC-to-12VDC-w-4-pin-Molex-Connector-5-Amp)
 
-&nbsp;
+<!-- Sub-Section -->
 
 ### Hard Drives
 
@@ -190,6 +200,8 @@ WD My Book				|3-22TB			|3 yr			|USB/SATA		|?			|?			|NA|USB, Shucked (pre-built
 **[Seagate Exos X](https://www.seagate.com/products/enterprise-drives/exos-x/)**		|10-20TB			|**5 yr**			|SATA			|256MB	|**2.5MHr**	|28/32|Pre-built or custom NAS					|CMR, 256MB >= 10TB, [X16](https://www.seagate.com/files/www-content/datasheets/pdfs/exos-x16-DS2011-3-2008US-en_US.pdf)/[X18](https://www.seagate.com/files/www-content/datasheets/pdfs/exos-x18-channel-DS2045-3-2102US-en_US.pdf)/[X20](https://www.seagate.com/files/www-content/datasheets/pdfs/exos-x20-channel-DS2080-2111US-en_US.pdf)
 
 (1) dBA for typical Idle/Seek operations on 12TB version (6TB for plain WD Red)  
+
+<!-- Sub-Section -->
 
 ### SSD Drives
 
@@ -214,7 +226,7 @@ Crucial MX500				|	1TB		 | SATA|	2.5"	 	|560/510		 | 360  | YES:1G 		 | 5 yr 	 |
 
 TBW = Total Bytes Written, Workload
 
-&nbsp;
+<!-- Sub-Section -->
 
 ### Hard Drive Prices (as of 2023-08-10)
 [PCPartPicker prices](https://pcpartpicker.com/products/internal-hard-drive/#xcx=0&A=8000000000000,22000000000000&sort=price&page=1)  
@@ -231,7 +243,7 @@ Seagate Ironwolf Pro NAS			|$225	|$230|$250|$300
 Seagate Exos X 					|NA		|$210|$210|$300
 WD Red Pro					|$222	|$290|$260|$290
 
-&nbsp;
+<!-- Sub-Section -->
 
 ### DiY NAS Case List
 
@@ -297,7 +309,8 @@ Phanteks Enthoo Pro 2		|12		|NA		|$150		|9.45 x 22.8 x 22		|No		|78		|EATX/ATX/u
 
 LEGEND  
 
-Drives: xxx+yyy/zzz = 3.5" native+5.25" native/5.25" with adapter. e.g. 4+2/3 = 3.5"x4 native + 3.5"x2 in 5.25"x2 bays (2 in 2) OR 3.5"x3 in 5.25"x2 bays w/[Evercool 5.25 adapter (3 in 2)](https://www.amazon.com/EverCool-Dual-Drive-Triple-Cooling/dp/B0032UUGF4)  
+Drives: xxx+yyy/zzz = 3.5" native+5.25" native/5.25" with adapter  
+e.g. 4+2/3 = 3.5"x4 native + 3.5"x2 in 5.25"x2 bays (2 in 2) OR 3.5"x3 in 5.25"x2 bays w/[Evercool 5.25 adapter (3 in 2)](https://www.amazon.com/EverCool-Dual-Drive-Triple-Cooling/dp/B0032UUGF4)  
 
 CASE							|3.5"	|2.5"	|COST		|W x H x D (in)				|H.SWAP	|LITERS			|MOBOS				|NOTES
 :--|:--|:--|:--|:--|:--|:--|:--|:--
