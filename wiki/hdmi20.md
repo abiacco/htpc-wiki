@@ -2,7 +2,7 @@
 
 <style>
     table {
-        width: 200%;
+        width: 500%;
     }
 </style>
 
