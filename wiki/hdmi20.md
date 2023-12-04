@@ -19,7 +19,7 @@ Bolded boards are ones we recommend. Please read footnotes in () for specific qu
 &nbsp;
 
 MOTHERBOARD|FORM|USERS|VENDOR|SOURCES/NOTES
-:--|:--|:--|:--|:--
+---|---|---|---|---
 AMD A3x0/B350/B450/X3x0/X470/X570|ALL|YES|YES|RR/PI Chipsets. All 2xxxG/3xxxG APUS
 AMD A520/B550/X300/X570|ALL|YES|YES|RN/CZ Chipsets. All 4xxxG/5xxxG APUS
 Intel Z490/H470/H410/B460|ALL|NA|YES|CML/RL Chipsets, ALL HDMI w/>= i5-11400 APUs (5b) or DP 1.2 w/[DP->HDMI adapter](https://www.amazon.com/Monoprice-DisplayPort-1-2a-Active-Adapter/dp/B07FPQ4ZSW) (6b). Otherwise only those with.. (5c)
