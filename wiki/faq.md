@@ -1,5 +1,14 @@
 # FAQ
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+<style>
+    table {
+        width: 100%;
+    }
+</style>
+-->
+
 *This page is best viewed with a PC web browser.*  
 
 <!-- Section -->
