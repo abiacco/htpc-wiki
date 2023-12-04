@@ -11,7 +11,7 @@ Contact Us with any text corrections, broken links or suggested content via [Red
 
 # Content
 
-##
+## -
 
 ### [FAQ](/htpc-wiki/faq) 
 - Information about getting help, building a HTPC, quick-fire RECs, components, client media devices, HTPC tech, common questions, etc..
