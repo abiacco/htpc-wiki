@@ -1,5 +1,14 @@
 # HTPC Term Reference
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+<style>
+    table {
+        width: 100%;
+    }
+</style>
+-->
+
 This is a list of terms you may find on this subreddit and what they mean
 
 ---
