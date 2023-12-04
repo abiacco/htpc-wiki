@@ -1,5 +1,14 @@
 # CPU Coolers
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+<style>
+    table {
+        width: 100%;
+    }
+</style>
+-->
+
 This table does not consider tower coolers or those over 100mm in height. It is sorted by nominal height. Categorized recommendations follow  
 
 MODEL	|	HEIGHT	|	PRICE	|	TDP		|	FAN SIZE	|	CPU COMPATABILITY		|	RATING (5=best)	|	NOTES
