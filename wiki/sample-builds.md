@@ -21,7 +21,7 @@ For current deals/promotions on parts for your build, try [r/buildapcsales](http
 
 <!-- Section -->
 
-## 1080p/4k HTPC Pre-builts/Mini-PCs
+## HTPC Pre-builts/Mini-PCs
 
 The SBC options below will have the highest power efficiency, but also lowest comparative performance. Intel N/NUC CPUs (e.g. N5105/N95) have high efficiency. Intel T CPUs (e.g. i3-7100T) medium efficiency. Intel non-T/AMD CPUs, low efficiency.  
 Choosing the least expensive option is attractive, but not always the best course of action. Be mindful of the added costs like storage, adapters, shipping. Other factors can include limitations like operating system support, warranty, QC and reliability.  
@@ -147,7 +147,7 @@ $175-$550: SMALL/MEDIUM: AMD - Ryzen 3x00G-5x00G, 8GB (2x4GB) RAM, 256GB ssd/1TB
 
 <!-- Section -->
 
-## 1080p/4k HTPC DIY builds
+## HTPC DIY builds
 
 <!-- Sub-Section -->
 
